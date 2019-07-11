@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+  background-color: #474B4F;
+  color: #DADBDC;
+  font-family: "Courier New", Courier, monospace;
+  width: 90%;
+  margin: auto;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+header {
+  border: 1px solid black;
+  background-color: #222629;
+  box-shadow: 4px 4px 10px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 1.1em;
+}
+
+main a {
+  color: #EDEDEE;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+h4 {
+  color: #84C708;
+}
+
+aside ul {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 55px;
+  min-width: 310.5px;
+  max-width: 435px;
+  text-align: center;
+}
+
+aside ul {
+  padding-top: 35px;
+}
+
+aside li {
+  border: 2px solid black;
+  margin: 10px;
+  background-color: #222629;
+}
+
+aside a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+aside li:hover {
+  background-color: #84C708;
+  transition: 1.2s;
+}
+
+aside a:hover {
+  color: #222629;
+}
+
+aside a:active {
+  color: #222629;
+  background-color: #84C708;
+}
+
+
+main ul {
+  text-align: center;
+}
+
+main ul li {
+  padding-top: 30px;
+}
+
+@media (min-width: 706px) and (max-width: 1420px) {
+
+  main {
+    width: 85%;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 50px;
+    width: 75%;
+    padding: 20px;
+  }
+
+  aside ul {
+    width: 50%;
+  }
+
+  aside ul {
+    padding-top: 45px;
+  }
+
+  aside li {
+    margin: 25px;
+  }
+
+  h1 {
+    font-size: 3.3em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  }
+
+  aside ul a {
+    font-size: 1.2em;
+    padding: 25px;
+  }
+
+}
+
+@media (min-width: 1421px) {
+
+  main {
+    width: 55%;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 80px;
+    width: 55%;
+    border: 3px solid black;
+    box-shadow: 8px 8px 20px black;
+    padding: 25px;
+  }
+
+  aside ul {
+    padding-top: 55px;
+  }
+
+  h1 {
+    font-size: 3.6em;
+  }
+
+  h2 {
+    padding-bottom: 1em;
+  }
+
+  h3 {
+    padding-top: 2em;
+  }
+
+  h4 {
+    font-size: 1.15em;
+  }
+
+  aside ul a {
+    font-size: 1.3em;
+    padding: 25px;
+  }
+
+}

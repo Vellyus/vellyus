@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+body {
+  background-color: #474B4F;
+  color: #DADBDC;
+  font-family: "Courier New", Courier, monospace;
+  width: 90%;
+  margin: auto;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+header {
+  border: 1px solid black;
+  background-color: #222629;
+  box-shadow: 4px 4px 10px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 1.1em;
+}
+
+main a {
+  color: #EDEDEE;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.65em;
+  color: #84C708;
+}
+
+h3 {
+  text-align: center;
+  color: #84C708;
+}
+
+h4 {
+  color: #84C708;
+}
+
+p {
+  margin-left: 20px;
+}
+
+ul {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 55px;
+  min-width: 310.5px;
+  max-width: 435px;
+  text-align: center;
+}
+
+ul {
+  padding-top: 35px;
+}
+
+li {
+  border: 2px solid black;
+  margin: 10px;
+  background-color: #222629;
+}
+
+ul a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #84C708;
+  transition: 1.2s;
+}
+
+ul a:hover {
+  color: #222629;
+}
+
+ul a:active {
+  color: #222629;
+  background-color: #84C708;
+}
+
+
+.normal {
+  font-weight: normal;
+}
+
+.kisKépek {
+  width: 100px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -103px;
+  visibility: hidden;
+}
+
+#logopic {
+  border: solid 1px #99ff99;
+}
+
+@media (min-width: 706px) and (max-width: 1420px) {
+
+  main {
+    width: 85%;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 50px;
+    width: 75%;
+    padding: 20px;
+  }
+
+  ul {
+    width: 50%;
+  }
+
+  ul {
+    padding-top: 45px;
+  }
+
+  li {
+    margin: 25px;
+  }
+
+  aside a {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 3.3em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  }
+
+  ul a {
+    font-size: 1.2em;
+  }
+
+}
+
+@media (min-width: 1421px) {
+
+  main {
+    width: 55%;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 80px;
+    width: 55%;
+    border: 3px solid black;
+    box-shadow: 8px 8px 20px black;
+    padding: 25px;
+  }
+
+  aside ul {
+    min-width: 100%;
+  }
+
+  aside ul {
+    padding-top: 100px;
+  }
+
+  .blognav li {
+    width: 12%;
+    min-width: 280px;
+    margin: 25px;
+    display: inline-block;
+  }
+
+  ul a {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 3.6em;
+  }
+
+  h2 {
+    padding-bottom: 1em;
+  }
+
+  h3 {
+    padding-top: 2em;
+  }
+
+  h4 {
+    font-size: 1.15em;
+  }
+
+  ul a {
+    font-size: 1.3em;
+  }
+
+}
