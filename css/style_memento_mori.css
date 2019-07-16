@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/memento_mori_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 100;
+    background-position: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 7em;
+    margin: 40px 0px 30px;
+    font-family: 'Rouge Script';
+}
+
+p {
+    margin-top: 300px;
+    font-family: 'Shadows Into Light';
+    font-size: 1em;
+    padding: 20px;
+    border-radius: 50px;
+    background: #493F3C;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.2em;
+    padding: 30px;
+    border-radius: 50px;
+    background: #493F3C;
+    display: inline-block;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 10px;
+    background: #785D4D;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #493F3C;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 706px) {
+    #clockdiv {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; */
+    }
+
+    #clockdiv>div {
+        padding: 5px;
+    }
+
+    body {
+        overflow-y: auto;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 0.8em;
+        background: rgba(73, 63, 60, 0.5);
+    }
+
+    h2 {
+        font-size: 1.1em;
+        background: rgba(73, 63, 60, );
+    }
+}
