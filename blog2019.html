@@ -43,83 +43,221 @@
 
   <aside class="blognav">
     <ul>
-      <li><a href="blog2018.html">
-          2018.
-        </a></li>
       <li><a href="blog2019.html">
           2019.
         </a></li>
-      <li><a href="#latest">
-          Legutóbbi post
+      <li><a href="blog2018.html">
+          2018.
+        </a></li>
+      <li><a href="#oldest">
+          Legrégebbi post
         </a></li>
     </ul>
   </aside>
 
   <main>
 
+    <!--Üres post: 
+        <a class="anchor" name="oldest"></a>
+
+          <h3> ... </h3>
+          <p> ... </p>
+
+          Zene minta:
+          <a href="https://www.youtube.com/watch?v=ui1LGIkjLjk">♫ InnerPartySystem - Don't Stop ♫ </a>
+          -->
+
+
     <h2>2019.</h2>
 
-    <h3> 01.11. 08:25 </h3>
-    <p>Elég régen volt blog post, aminek sok oka van: pihizni akartam év
-      végén, lusta voltam / nem volt kedvem kódolással foglalkozni,
-      vagy foglalkoztam vele csak nem akartam blogolni. Most, hogy végre megint van blog post, pár szó az oldalon
-      történt változásokról: <br>
+    <h3> 07.17. 17:14 </h3>
+    <p> Ahogy ígértem a Memento Mori-ról pár sor: Akartam egy kis web-appot ami megmutatja hogy átlagosan kb mennyi
+      ideig fogsz még élni. Kissé talán morbid így visszaszámolós stílusban, de nekem így tetszik. Lényegében annyi
+      történik, hogy beírod a születési dátumod, amit kivonunk a jelenlegi dátumból. Így megkapjuk az időt amit eddig
+      leéltél. Aztán ezt kivonjuk az átlag életkorból és a kapott értéktől visszaszámolunk. A fiú/lány dolog ugye
+      azért kell, mert a nők átlagosan tovább élnek. A visszaszámlálós részt neten találtam. Elég szépen le van írva,
+      hogy mi mit csinál benne, de így is kellett némi idő mire nagyjából megértettem a működését. <br>
+      <a href="https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/" target="_blank">Itt a link
+        hozzá.</a> <br>
       <br>
-      - Végre elkészült a főoldal menüvel, Matrix-os háttérrel meg minden. Még nem az igazi, de kezdetnek megteszi.
-      Egyelőre egyik lap sincs normálisan beállítva kisebb kijelzőkhöz,
-      szóval telefonon katasztrófa az egész, de úgy tervezem, hogy ezt hétvégén elintézem. <br>
+      Mikor barimnak meséltem készítés közben, hogy mit fog csinálni az app közbevágott, hogy: "Visszaszámol a
+      következő szülinapodig? Ez tök jó! :)" Sajnos ki kellett ábrándítanom, ez sokkal inkább rám vall, mint a
+      szülinap. Viszont az ötlet nem rossz, úgyhogy majd megcsinálom a szülinaposat is. :) <br>
+      Tegnap ahogy itthagytam a gépet és megnéztem telefonon láttam, hogy elég ramatyul néz ki az egész. Szóval telóra
+      még ki kell pofoznom valamikor. Pedig Dev Toolsban jól nézett ki... <br>
       <br>
-      - A blog minden évben egy új lapot kap, ide is lett egy kis menü és egy kényelmes kis link, ami rögtön a legújabb
-      posthoz repíti az ide látogatókat. <br>
-      (Elképesztő, hogy egy átmelózott éjszaka után még képes vagyok így fogalmazni ^^ ) <br>
+      Egy ismerősömnek az volt a visszajelzése az oldallal kapcsolatban, hogy a blogban lehetnének elöl a frissebb
+      postok és lehetne tagoltabb. Nos, agyaltam rajta és a tagoltsággal kapcsolatban nem értek egyet. Nekem jobban
+      tetszik így, mert könnyű végiggörgetni rajta és végülis egy sztori az egész. Ha hosszabb postok lennének talán
+      megérné lapozós formában újragondolni. <br>
+      Viszont az, hogy a frissebb postok legyenek elöl teljesen jó ötlet. Erre ma már nem lesz időm, de holnap
+      átrendezem őket. Ezzel a "Legutóbbi post" gomb feleslegessé is válik. Talán később megoldhatnám, hogy minden
+      egyes postot mondjuk egy array elemként tárolok. Így a felhasználó kedve szerint változtathatná hogy a frisset
+      vagy a régit szeretné-e elöl látni. <br>
       <br>
-      - A "Titokzatos új projekt" egyelőre stagnál. Önhibámon kívül... a barimra várok akié az oldal lesz. Ahogy ismerem
-      ebből nem mostanában lesz valami szóval létrehoztam még egy linket ami a
-      "Teszt labor" nevet kapta. Kódolást csak úgy tud tanulni az ember, ha gyakorolja is, ezért arra gondoltam, hogy
-      amit egy oktatóvideón megtanulok azt azonnal ki is próbálom és ezeket a spontán
-      próbálkozásokat ide feltöltöm. A link egyelőre nem mutat sehova, de hamarosan meglesz ez is. </p>
-
-
-    <h3> 01.16. 08:23 </h3>
-    <p> Tegnap végre tudtam haladni az oldallal. Rájöttem, hogy ha korán
-      felkelek még meló előtt, akkor sokkal több kedvem van az egészhez,
-      mint munka után fáradtan. :) A blog post megírásához sajna már nem volt kedvem, szóval ezt ma pótolom. Szóval...
-      tegnap az jutott eszembe, hogy ha a főoldalról a fix headert és a footert
-      átrakom a többi lapra is akkor sokkal átláthatóbb lesz a menü, úgyhogy ezt megvalósítottam. Végre él a Teszt labor
-      menüpont is, egyelőre a téli témát raktam rá, ami korábban az oldal háttere
-      volt, plusz felkerült egy "Smoke Text On Hover" lap is. Ez nem saját alkotás, csak másoltam egy tutorial-ból, de
-      majd ha lesz kedvem hozzá csinálok vele valami egyedibbet.
-      Arra gondoltam, hogy megfordítom az animációt és egy valamivel nagyobb szöveget hover-rel fel lehetne fedni,
-      mintha zseblámpa lenne az egér vagy ilyesmi.</p>
-
-
-    <h3> 02.01. 17:48 </h3>
-    <p>Megpróbáltam megvalósítani a Smoke Text-es ötletemet, de jelenleg
-      ez meghaladja a tudásom, szóval későbbre halasztom. Van még egy-két
-      hasonló ötletem amiket egyelőre nem tudok kivitelezni. Plusz legutóbb amikor minden oldalra megcsináltam a fix
-      headert és footert eléggé szétcsúszott az oldal telefonon, ezt nagyjából
-      sikerült rendbehozni. Nem tökéletes, de nekem egyelőre így is megfelel.
-      Ez még valamikor a hét elején volt, csak nem volt kedvem blogolni róla. Mostanában eléggé elhanyagoltam a
-      kódolást, ezért arra
-      gondoltam, hogy vinni kéne bele valami rendszerességet. Egyelőre arra jutottam, hogy hétköznap 1-1, hétvégén pedig
-      3 óra ráfordítással még marad mellette is elég szabadidőm. Eredetileg
-      több időt szerettem volna kitűzni kódolásra, de tudom, hogy nagyon lusta vagyok és egyelőre úgyse menne a napi 2
-      óra. Ezen kívül vissza kéne térni a napi egy blog posthoz, gyakran ehhez
-      sincs kedvem, pedig jó dolog. <br>
-      Novemberben kezdtem el ezt az egészet, de mivel januárban elég keveset voltam aktív mondhatni 2 hónapom van benne
-      ténylegesen. Jó lenne 2019 végén úgy tekinthetnék vissza erre az oldalra,
-      hogy lássam hogy sokat fejlődtem, ehhez viszont nem szabadna ennyi ideig elhanyagolni, mint ahogy most tettem.
-      Szóval valami ilyesmi lenne a cél az idei év végéig. <br>
+      Ami a szerverre való feltöltést illeti: Beszéltem a HostGator supporttal, állítólag megoldották a problémát, de
+      nálam továbbra is fennáll a hiba. Elvileg csak annyi a gubanc, hogy megosztott host esetében többen használják
+      ugyanazt a tárhelyet ami megtelt. Csak átirányítanak másik tárhelyre és újra működnie kellene a feltöltésnek.
+      Kényelmi okokból nem ártana ha végre megszűnne a hiba. :) Mégiscsak egyszerűbb volt az FTP progival feltölteni.
       <br>
-      Hogy haladok a tanulással? Nos, a HTML-el és a CSS-el szerintem így is túl sok időt vesztegettem. Ezekből már
-      eleget tudok ahhoz hogy most ne érdekeljenek egy ideig. Igaz, hogy még
-      ezekről is lenne mit tanulnom, de most már ideje lenne belevágni a Javascript-be. A héten elkezdtem újra
-      átnézegetni mindazt amit eddig tanultam róla
-      <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-on, mert annyi ideig nem
-      foglalkoztam vele, hogy kb minden kiesett. Szóval mostantól Javascript van fókuszban és elméletileg a Teszt
-      Laborba fel is kerülnek majd azok a "mini-projektek" amiket csinálok vele.
+      <br>
+      Bob Martin tanácsára az alapértelmezett szürke szín helyett pirosra állítottam a commentek színét. Még 1-2
+      hónapja megnéztem pár jó hosszú beszédet tőle youtube-on és egyelőre ennyit sikerült hasznosítanom belőle. :D
     </p>
 
+    <h3> 07.16. 18:14 </h3>
+    <p> Elkészült az app amiről pár post-tal ezelőtt beszéltem. A Teszt Laborban megtekinthető, Memento Mori névre
+      hallgat. Most nincs túl sok időm írni róla + tesztelni telefonon is, de elvileg sok gond nem lehet vele. Sajna
+      nemsokára mennem kell dolgozni, de holnap részletesen beszámolok erről a kis projektről. </p>
+
+    <h3> 07.16. 15:13 </h3>
+    <p> Valamiért 2 napja nem működik a FileZillával való feltöltés (tegnap nem voltam itthon). Próbáltam a Visual
+      Studio Code-os ftp-simple extension-t is, de azzal sem ment (ezt lehet, hogy én bénáztam el). Nem vagyok benne
+      biztos, hogy nálam vagy a FileZillánál vagy a Hostgatornél van a gubanc. Amíg nem oldódik meg kénytelen leszek a
+      control panelben feltöltögetni. :/ </p>
+
+    <h3> 07.14. 11:42 </h3>
+    <p> <a href="https://motherfuckingwebsite.com/" target="_blank">Motherfucking Website</a>
+      &lt;- Check this out! ^^ </p>
+
+    <h3> 07.12. 22:08 </h3>
+    <p> Szóval... egy újabb nagy szünetet követően megint lett kedvem kódolni. Tegnap feltettem a Git-et,
+      kipróbálgattam meg minden. Tök jó! :) <br>
+      Közben néha ismételgettem a Javascriptet, hamarosan beérem magam és kezdhetem tanulni az újdonságokat. Ami azt a
+      kis appot illeti amit az előző postban említettem: Nos úgy döntöttem, hogy mégsem teszem fel amíg nincs kb kész
+      állapotban. Sikerült haladni vele, már csak 1-2 apró módosítás és a design hiányzik. </p>
+
+    <h3> 06.13. 13:25</h3>
+    <p> Egy kis összefoglaló: Hétköznap nem nagyon kódoltam csak javascriptet ismételgettem, mert ezzel kellene
+      haladni a kurzusban, de kicsit régen használtam már. Szóval átnézem az eddigieket mielőtt továbbmegyek. Hétvégén
+      elkezdtem egy appot, amit már régóta terveztem elkészíteni. Nem sikerült befejezni, de valószínűleg a következő
+      hétvégén prezentálható állapotba hozom és felteszem. Aztán majd később még javítok rajta, mert kétlem hogy
+      olyanra sikerül amilyenre épp szeretném. </p>
+
+    <h3> 06.02. 22:30 </h3>
+    <p> Hali! :) Megint nem nagyon volt kedvem blogolni, de itt egy kis összefoglaló az elmúlt hétről. Treehouse-on
+      Git-et tanulgatok, ha végeztem ezzel a kurzussal felteszem a gépemre is és próbálom minél többet használni.
+      Majdnem minden nap tanultam vagy dolgoztam valami kis mini-projekten amit nem akartam itt megosztani. Azért volt
+      pár nap pihi meg családos event is. Pár hete gondoltam arra, hogy határidőket kellene kitűznöm egy-egy
+      projekthez, de eddig ezt nem sikerült megvalósítani. Ha végzek az egyikkel vagy elvetek egy ötletet egyszerűen
+      lépek a következőre vagy folytatom a tanulást. Jó lenne ez a határidős dolog, de még nem sikerült rávennem
+      magam...</p>
+
+    <h3> 05.20. 02:38 </h3>
+    <p> Megint volt egy elég nagy szünet. Pár napja megcsináltam az Elérhetőség lapot, tegnap pedig feltettem a Google
+      Analytics-et. Ez lényegében csak követi, hogy hányan nézik a weboldalt. Az elérhetőség lapon csak a régi e-mail
+      címet adtam meg amit még ehhez az oldalhoz hoztam létre. Talán később lesz más is, de egyelőre úgy érzem, hogy
+      ennyi elég. </p>
+
+    <h3> 04.29. 10:10 </h3>
+    <p> Újabb minta a Teszt laborban, ezúttal egy lap videóval a háttérben. Sajna elég lassan tölti be a böngésző...
+    </p>
+
+    <h3> 04.24. 17:53 </h3>
+    <p> Felkerült egy parallax weboldal minta a Teszt Laborba. Mobilon nem fog működni a parallax effect. </p>
+
+    <h3> 04.23. 00:41 </h3>
+    <p> Ma Treehouse-on haladtam, mert elég régóta nem nyúltam hozzá. Át kell rágnom magam egy csomó CSS anyagon
+      aminek egy része ismétlés lesz mielőtt újdonsághoz érek. Közben azért Youtube-os videókon tanulok új dolgokat
+      is. Arra gondoltam, hogy mivel tényleges weboldalakat nem készítek pár mintát azért felteszek random témával és
+      valami kitöltő szöveggel. Gyakorlásnak jó lesz és nem kell órákat agyalni a tartalmon. </p>
+
+    <h3> 04.20. 20:20</h3>
+    <p> Tegnap elkészült az új design csak nem volt már kedvem blogolni róla. Ma annyit adtam hozzá, hogy a gombok
+      most már egész felületükön működnek. Eddig ugyanis csak a bennük lévő linkre kattintva lehetett továbbjutni. Még
+      várható egy egyszerű kis "Elérhetőségek" oldal ami a nyitólapról lesz elérhető. Egyelőre nem vagyok benne
+      biztos, hogy mit akarok ide kitenni, valószínűleg csak egy e-mail cím lesz.
+    </p>
+
+    <h3> 04.02. 17:30 </h3>
+    <p>Hát sem tegnap, sem tegnapelőtt nem csináltam semmit a layouttal,
+      de ma elkezdtem csinálgatni. Eddig a nyitólap van készen, biztos lesznek még rajta apró
+      változtatások, de ezt már késznek lehet nevezni. A Matrix-os kódesőt levettem, ez átkerül a Teszt laborba.
+      Tudom,
+      hogy jelenleg van egy link a nyitólapon ami önmagára mutat,
+      ehelyett lesz majd egy "About" szekció féleség. </p>
+
+    <h3> 03.30. 23:35 </h3>
+    <p> Megvan a színkombináció, a layouthoz viszont még nem nyúltam hozzá.
+      Holnap nekilátok annak is. Elég sokféle színt
+      megnézegettem, ha nem is végleges a mostani állapot, azt hiszem ez jó ideig megfelel majd. </p>
+
+    <h3> 03.27. 18:30 </h3>
+    <p> Oké, szóval kb egy hónap kihagyás volt, mert nem volt kedvem,
+      fáradt voltam, stb... a szokásos. A legutóbbi post óta
+      mindössze annyi haladás történt, hogy váltottam Visual Studio Code-ra. Sikerült beállítani pár gyorsbillentyűt
+      amikre szükségem van és így már egész használható. Kicsit még
+      új, meg kell szoknom, de jó lesz. A kellemesebb használói élmény érdekében lesz egy design-beli változás. A
+      matrix
+      téma valószínűleg ejtve lesz és mobil készülékeket
+      előnyben részesítve újra lesz építve az oldal. Még nem tiszta, hogy pontosan milyen lesz, de itt van pár
+      screenshot a mostani állapotról, aztán szép lassan
+      elkezdem újraformálni az oldalt. (A menü szinte biztosan változni fog és most hogy a matrix-os téma talán el
+      lesz
+      hagyva lesz lehetőség könnyebben olvasható szöveget írni.) <br>
+      <a href="img/screenshot5.png" target="_blank"> <img src="img/screenshot5.png" alt="screenshot" class="kisKépek"
+          title="Screenshot5"> </a>
+      <a href="img/screenshot6.png" target="_blank"> <img src="img/screenshot6.png" alt="screenshot" class="kisKépek"
+          title="Screenshot6"> </a>
+      <a href="img/screenshot7.png" target="_blank"> <img src="img/screenshot7.png" alt="screenshot" class="kisKépek"
+          title="Screenshot7"> </a>
+    </p>
+
+    <h3> 03.01. 06:30 </h3>
+    <p> A Petals around the rose játék reszponzívabb lett: már nem lóg ki a
+      szélén a lista számozása, jobb a betűméret, margók stb... <br>
+      Ismét az történt, hogy a telefon egy korábbi verziót töltött be (Chrome böngésző), és nem tudtam tesztelni, hogy
+      ott is működnek-e a változtatások. Ezt inkognitó módba kapcsolással
+      sikerült orvosolni. <br>
+      Próbáltam váltani Atom-ról Visual Studio Code-ra, mert elterjedtebb. Nos ez egyelőre nem fog megtörténni, mert a
+      shortcut commandok nem azt csinálják ami a menüben szerepel,
+      de majd még kitapasztalom hogy van ez. Amúgy nem tűnik rossznak, vannak benne hasznos dolgok amik az Atom-ból
+      hiányoznak. </p>
+
+    <h3> 02.15. 17:21 </h3>
+    <p> Tegnapelőtt megbetegedtem, de ma már azért tudtam foglalkozni
+      valamennyit az oldallal. Megcsináltam pár apróságot,
+      amit már terveztem egy ideje: <br> <br>
+      - A header és footer stílus elemeit külön stíluslapra vittem át. Egyszer már megszívtam vele amikor változtattam
+      rajta.
+      Minden oldalon külön kellett átírni a kódot és az egyiket kis is felejtettem, amit csak pár nap múlva vettem
+      észre. <br>
+      - A stíluslapokat és képeket külön mappába tettem és átírtam az összes linket, ami ezekre hivatkozott. Remélem
+      nem
+      hagytam ki egyet sem.
+      A képeknek eddig is külön mappa volt, csak pár kivétel akadt. <br>
+      - Felkerült a teszt laborba még egy apró kreálmány amit a loop tanulásának kapcsán készítettem. Ez is angol,
+      szerintem marad is így, hacsak egyszer nem lesz kedvem mindet
+      egyszerre magyarra fordítani. <br>
+      - A "Titokzatos új project" menüpontot levettem, mert szerintem ebből már nem lesz semmi. :/</p>
+
+    <h3> 02.10. 16:00 </h3>
+    <p> Ismét az előző napról blogolok, mert tegnap nem volt kedvem
+      hozzá... Szóval elkészült a rejtvény jellegű játék, amit említettem az előző postban.
+      A neve <a href="petals/petals.html" target="_blank">Petals Around the Rose</a>, ez is megtalálható a Teszt
+      laborban. Magát a játékot nem volt olyan nehéz
+      kódolni, mint ahogy elképzeltem, de akadtak más problémák, amiket nem sikerült megoldanom. Így se lett rossz, de
+      később majd még javítok rajta. </p>
+
+    <h3> 02.07. 03:33 </h3>
+    <p> Tegnap (még éjfél előttől számolva :D ) felkerült a Teszt laborba
+      egy Fairy Tail Quiz, amit egy
+      <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-os code challenge
+      keretében készítettem. Eleinte kételkedtem, hogy egyáltalán össze tudom-e rakni. Elég nagy falatnak tűnt, de
+      belevágtam és szép sorban sikerült megcsinálni minden elemét.
+      Nagyon élveztem és bár tudom, hogy nem sokan olvassák a blogot, közülük még kevesebben nézik az animét amiről a
+      kvíz szól azért kiraktam. Aki nem nézi az animét az fordulhat a
+      <a href="https://www.google.com/" target="_blank">Google</a>-höz. <br>
+      Elkezdek készíteni egy játékot az oldalra, valószínűleg ezt is csak a Teszt Laborba rakom fel egyelőre. Egy
+      rejtvény jellegű dolog lesz, de sokat nem akarok elárulni róla.
+      Nem vagyok benne biztos, hogy a jelenlegi tudásom elegendő lesz-e ehhez a projekthez, de belekezdek és meglátom
+      mire jutok vele. <br>
+      <br>
+      Még valami, amiről nincs kedvem folyton blogolni: rendszeresen végzek apró módosításokat az oldalon. Főleg azért
+      mert nem veszek észre mindent és ismerősök jelzik, ha valami nem működik
+      úgy, ahogy kellene. Ilyen apróságokkal nem szeretném telespamelni a blogot, ha lehet ezt így mondani. <br>
+      Pro tipp - Ha csinálsz valamit, mindig nézesd át mással is, lehet, hogy észrevesznek olyasmit ami felett te
+      elsiklasz! </p>
 
     <h3> 02.05. 07:32 </h3>
     <p>
@@ -133,222 +271,71 @@
         lenne valahogy közös nevezőre jutni, de a blogot nem akarom angolul írni,
         a többit meg nem akarom teljes mértékben magyarra fordítani. </p>
 
-
-      <h3> 02.07. 03:33 </h3>
-      <p> Tegnap (még éjfél előttől számolva :D ) felkerült a Teszt laborba
-        egy Fairy Tail Quiz, amit egy
-        <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-os code challenge
-        keretében készítettem. Eleinte kételkedtem, hogy egyáltalán össze tudom-e rakni. Elég nagy falatnak tűnt, de
-        belevágtam és szép sorban sikerült megcsinálni minden elemét.
-        Nagyon élveztem és bár tudom, hogy nem sokan olvassák a blogot, közülük még kevesebben nézik az animét amiről a
-        kvíz szól azért kiraktam. Aki nem nézi az animét az fordulhat a
-        <a href="https://www.google.com/" target="_blank">Google</a>-höz. <br>
-        Elkezdek készíteni egy játékot az oldalra, valószínűleg ezt is csak a Teszt Laborba rakom fel egyelőre. Egy
-        rejtvény jellegű dolog lesz, de sokat nem akarok elárulni róla.
-        Nem vagyok benne biztos, hogy a jelenlegi tudásom elegendő lesz-e ehhez a projekthez, de belekezdek és meglátom
-        mire jutok vele. <br>
+      <h3> 02.01. 17:48 </h3>
+      <p>Megpróbáltam megvalósítani a Smoke Text-es ötletemet, de jelenleg
+        ez meghaladja a tudásom, szóval későbbre halasztom. Van még egy-két
+        hasonló ötletem amiket egyelőre nem tudok kivitelezni. Plusz legutóbb amikor minden oldalra megcsináltam a fix
+        headert és footert eléggé szétcsúszott az oldal telefonon, ezt nagyjából
+        sikerült rendbehozni. Nem tökéletes, de nekem egyelőre így is megfelel.
+        Ez még valamikor a hét elején volt, csak nem volt kedvem blogolni róla. Mostanában eléggé elhanyagoltam a
+        kódolást, ezért arra
+        gondoltam, hogy vinni kéne bele valami rendszerességet. Egyelőre arra jutottam, hogy hétköznap 1-1, hétvégén
+        pedig
+        3 óra ráfordítással még marad mellette is elég szabadidőm. Eredetileg
+        több időt szerettem volna kitűzni kódolásra, de tudom, hogy nagyon lusta vagyok és egyelőre úgyse menne a napi 2
+        óra. Ezen kívül vissza kéne térni a napi egy blog posthoz, gyakran ehhez
+        sincs kedvem, pedig jó dolog. <br>
+        Novemberben kezdtem el ezt az egészet, de mivel januárban elég keveset voltam aktív mondhatni 2 hónapom van
+        benne
+        ténylegesen. Jó lenne 2019 végén úgy tekinthetnék vissza erre az oldalra,
+        hogy lássam hogy sokat fejlődtem, ehhez viszont nem szabadna ennyi ideig elhanyagolni, mint ahogy most tettem.
+        Szóval valami ilyesmi lenne a cél az idei év végéig. <br>
         <br>
-        Még valami, amiről nincs kedvem folyton blogolni: rendszeresen végzek apró módosításokat az oldalon. Főleg azért
-        mert nem veszek észre mindent és ismerősök jelzik, ha valami nem működik
-        úgy, ahogy kellene. Ilyen apróságokkal nem szeretném telespamelni a blogot, ha lehet ezt így mondani. <br>
-        Pro tipp - Ha csinálsz valamit, mindig nézesd át mással is, lehet, hogy észrevesznek olyasmit ami felett te
-        elsiklasz! </p>
-
-
-      <h3> 02.10. 16:00 </h3>
-      <p> Ismét az előző napról blogolok, mert tegnap nem volt kedvem
-        hozzá... Szóval elkészült a rejtvény jellegű játék, amit említettem az előző postban.
-        A neve <a href="petals/petals.html" target="_blank">Petals Around the Rose</a>, ez is megtalálható a Teszt
-        laborban. Magát a játékot nem volt olyan nehéz
-        kódolni, mint ahogy elképzeltem, de akadtak más problémák, amiket nem sikerült megoldanom. Így se lett rossz, de
-        később majd még javítok rajta. </p>
-
-
-      <h3> 02.15. 17:21 </h3>
-      <p> Tegnapelőtt megbetegedtem, de ma már azért tudtam foglalkozni
-        valamennyit az oldallal. Megcsináltam pár apróságot,
-        amit már terveztem egy ideje: <br> <br>
-        - A header és footer stílus elemeit külön stíluslapra vittem át. Egyszer már megszívtam vele amikor változtattam
-        rajta.
-        Minden oldalon külön kellett átírni a kódot és az egyiket kis is felejtettem, amit csak pár nap múlva vettem
-        észre. <br>
-        - A stíluslapokat és képeket külön mappába tettem és átírtam az összes linket, ami ezekre hivatkozott. Remélem
-        nem
-        hagytam ki egyet sem.
-        A képeknek eddig is külön mappa volt, csak pár kivétel akadt. <br>
-        - Felkerült a teszt laborba még egy apró kreálmány amit a loop tanulásának kapcsán készítettem. Ez is angol,
-        szerintem marad is így, hacsak egyszer nem lesz kedvem mindet
-        egyszerre magyarra fordítani. <br>
-        - A "Titokzatos új project" menüpontot levettem, mert szerintem ebből már nem lesz semmi. :/</p>
-
-
-      <h3> 03.01. 06:30 </h3>
-      <p> A Petals around the rose játék reszponzívabb lett: már nem lóg ki a
-        szélén a lista számozása, jobb a betűméret, margók stb... <br>
-        Ismét az történt, hogy a telefon egy korábbi verziót töltött be (Chrome böngésző), és nem tudtam tesztelni, hogy
-        ott is működnek-e a változtatások. Ezt inkognitó módba kapcsolással
-        sikerült orvosolni. <br>
-        Próbáltam váltani Atom-ról Visual Studio Code-ra, mert elterjedtebb. Nos ez egyelőre nem fog megtörténni, mert a
-        shortcut commandok nem azt csinálják ami a menüben szerepel,
-        de majd még kitapasztalom hogy van ez. Amúgy nem tűnik rossznak, vannak benne hasznos dolgok amik az Atom-ból
-        hiányoznak. </p>
-
-
-      <h3> 03.27. 18:30 </h3>
-      <p> Oké, szóval kb egy hónap kihagyás volt, mert nem volt kedvem,
-        fáradt voltam, stb... a szokásos. A legutóbbi post óta
-        mindössze annyi haladás történt, hogy váltottam Visual Studio Code-ra. Sikerült beállítani pár gyorsbillentyűt
-        amikre szükségem van és így már egész használható. Kicsit még
-        új, meg kell szoknom, de jó lesz. A kellemesebb használói élmény érdekében lesz egy design-beli változás. A
-        matrix
-        téma valószínűleg ejtve lesz és mobil készülékeket
-        előnyben részesítve újra lesz építve az oldal. Még nem tiszta, hogy pontosan milyen lesz, de itt van pár
-        screenshot a mostani állapotról, aztán szép lassan
-        elkezdem újraformálni az oldalt. (A menü szinte biztosan változni fog és most hogy a matrix-os téma talán el
-        lesz
-        hagyva lesz lehetőség könnyebben olvasható szöveget írni.) <br>
-        <a href="img/screenshot5.png" target="_blank"> <img src="img/screenshot5.png" alt="screenshot" class="kisKépek"
-            title="Screenshot5"> </a>
-        <a href="img/screenshot6.png" target="_blank"> <img src="img/screenshot6.png" alt="screenshot" class="kisKépek"
-            title="Screenshot6"> </a>
-        <a href="img/screenshot7.png" target="_blank"> <img src="img/screenshot7.png" alt="screenshot" class="kisKépek"
-            title="Screenshot7"> </a>
+        Hogy haladok a tanulással? Nos, a HTML-el és a CSS-el szerintem így is túl sok időt vesztegettem. Ezekből már
+        eleget tudok ahhoz hogy most ne érdekeljenek egy ideig. Igaz, hogy még
+        ezekről is lenne mit tanulnom, de most már ideje lenne belevágni a Javascript-be. A héten elkezdtem újra
+        átnézegetni mindazt amit eddig tanultam róla
+        <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-on, mert annyi ideig nem
+        foglalkoztam vele, hogy kb minden kiesett. Szóval mostantól Javascript van fókuszban és elméletileg a Teszt
+        Laborba fel is kerülnek majd azok a "mini-projektek" amiket csinálok vele.
       </p>
 
+      <h3> 01.16. 08:23 </h3>
+      <p> Tegnap végre tudtam haladni az oldallal. Rájöttem, hogy ha korán
+        felkelek még meló előtt, akkor sokkal több kedvem van az egészhez,
+        mint munka után fáradtan. :) A blog post megírásához sajna már nem volt kedvem, szóval ezt ma pótolom. Szóval...
+        tegnap az jutott eszembe, hogy ha a főoldalról a fix headert és a footert
+        átrakom a többi lapra is akkor sokkal átláthatóbb lesz a menü, úgyhogy ezt megvalósítottam. Végre él a Teszt
+        labor
+        menüpont is, egyelőre a téli témát raktam rá, ami korábban az oldal háttere
+        volt, plusz felkerült egy "Smoke Text On Hover" lap is. Ez nem saját alkotás, csak másoltam egy tutorial-ból, de
+        majd ha lesz kedvem hozzá csinálok vele valami egyedibbet.
+        Arra gondoltam, hogy megfordítom az animációt és egy valamivel nagyobb szöveget hover-rel fel lehetne fedni,
+        mintha zseblámpa lenne az egér vagy ilyesmi.</p>
 
-      <h3> 03.30. 23:35 </h3>
-      <p> Megvan a színkombináció, a layouthoz viszont még nem nyúltam hozzá.
-        Holnap nekilátok annak is. Elég sokféle színt
-        megnézegettem, ha nem is végleges a mostani állapot, azt hiszem ez jó ideig megfelel majd. </p>
+      <a class="anchor" name="oldest"></a>
 
-      <h3> 04.02. 17:30 </h3>
-
-      <p>Hát sem tegnap, sem tegnapelőtt nem csináltam semmit a layouttal,
-        de ma elkezdtem csinálgatni. Eddig a nyitólap van készen, biztos lesznek még rajta apró
-        változtatások, de ezt már késznek lehet nevezni. A Matrix-os kódesőt levettem, ez átkerül a Teszt laborba.
-        Tudom,
-        hogy jelenleg van egy link a nyitólapon ami önmagára mutat,
-        ehelyett lesz majd egy "About" szekció féleség. </p>
-
-
-      <h3> 04.20. 20:20</h3>
-      <p> Tegnap elkészült az új design csak nem volt már kedvem blogolni róla. Ma annyit adtam hozzá, hogy a gombok
-        most már egész felületükön működnek. Eddig ugyanis csak a bennük lévő linkre kattintva lehetett továbbjutni. Még
-        várható egy egyszerű kis "Elérhetőségek" oldal ami a nyitólapról lesz elérhető. Egyelőre nem vagyok benne
-        biztos, hogy mit akarok ide kitenni, valószínűleg csak egy e-mail cím lesz.
-      </p>
-
-
-      <h3> 04.23. 00:41 </h3>
-      <p> Ma Treehouse-on haladtam, mert elég régóta nem nyúltam hozzá. Át kell rágnom magam egy csomó CSS anyagon
-        aminek egy része ismétlés lesz mielőtt újdonsághoz érek. Közben azért Youtube-os videókon tanulok új dolgokat
-        is. Arra gondoltam, hogy mivel tényleges weboldalakat nem készítek pár mintát azért felteszek random témával és
-        valami kitöltő szöveggel. Gyakorlásnak jó lesz és nem kell órákat agyalni a tartalmon. </p>
-
-
-      <h3> 04.24. 17:53 </h3>
-      <p> Felkerült egy parallax weboldal minta a Teszt Laborba. Mobilon nem fog működni a parallax effect. </p>
-
-
-      <h3> 04.29. 10:10 </h3>
-      <p> Újabb minta a Teszt laborban, ezúttal egy lap videóval a háttérben. Sajna elég lassan tölti be a böngésző...
-      </p>
-
-
-      <h3> 05.20. 02:38 </h3>
-      <p> Megint volt egy elég nagy szünet. Pár napja megcsináltam az Elérhetőség lapot, tegnap pedig feltettem a Google
-        Analytics-et. Ez lényegében csak követi, hogy hányan nézik a weboldalt. Az elérhetőség lapon csak a régi e-mail
-        címet adtam meg amit még ehhez az oldalhoz hoztam létre. Talán később lesz más is, de egyelőre úgy érzem, hogy
-        ennyi elég. </p>
-
-
-      <h3> 06.02. 22:30 </h3>
-      <p> Hali! :) Megint nem nagyon volt kedvem blogolni, de itt egy kis összefoglaló az elmúlt hétről. Treehouse-on
-        Git-et tanulgatok, ha végeztem ezzel a kurzussal felteszem a gépemre is és próbálom minél többet használni.
-        Majdnem minden nap tanultam vagy dolgoztam valami kis mini-projekten amit nem akartam itt megosztani. Azért volt
-        pár nap pihi meg családos event is. Pár hete gondoltam arra, hogy határidőket kellene kitűznöm egy-egy
-        projekthez, de eddig ezt nem sikerült megvalósítani. Ha végzek az egyikkel vagy elvetek egy ötletet egyszerűen
-        lépek a következőre vagy folytatom a tanulást. Jó lenne ez a határidős dolog, de még nem sikerült rávennem
-        magam...</p>
-
-      <h3> 06.13. 13:25</h3>
-      <p> Egy kis összefoglaló: Hétköznap nem nagyon kódoltam csak javascriptet ismételgettem, mert ezzel kellene
-        haladni a kurzusban, de kicsit régen használtam már. Szóval átnézem az eddigieket mielőtt továbbmegyek. Hétvégén
-        elkezdtem egy appot, amit már régóta terveztem elkészíteni. Nem sikerült befejezni, de valószínűleg a következő
-        hétvégén prezentálható állapotba hozom és felteszem. Aztán majd később még javítok rajta, mert kétlem hogy
-        olyanra sikerül amilyenre épp szeretném. </p>
-
-      <h3> 07.12. 22:08 </h3>
-      <p> Szóval... egy újabb nagy szünetet követően megint lett kedvem kódolni. Tegnap feltettem a Git-et,
-        kipróbálgattam meg minden. Tök jó! :) <br>
-        Közben néha ismételgettem a Javascriptet, hamarosan beérem magam és kezdhetem tanulni az újdonságokat. Ami azt a
-        kis appot illeti amit az előző postban említettem: Nos úgy döntöttem, hogy mégsem teszem fel amíg nincs kb kész
-        állapotban. Sikerült haladni vele, már csak 1-2 apró módosítás és a design hiányzik. </p>
-
-      <h3> 07.14. 11:42 </h3>
-      <p> <a href="https://motherfuckingwebsite.com/" target="_blank">Motherfucking Website</a>
-        &lt;- Check this out! ^^ </p>
-
-      <h3> 07.16. 15:13 </h3>
-      <p> Valamiért 2 napja nem működik a FileZillával való feltöltés (tegnap nem voltam itthon). Próbáltam a Visual
-        Studio Code-os ftp-simple extension-t is, de azzal sem ment (ezt lehet, hogy én bénáztam el). Nem vagyok benne
-        biztos, hogy nálam vagy a FileZillánál vagy a Hostgatornél van a gubanc. Amíg nem oldódik meg kénytelen leszek a
-        control panelben feltöltögetni. :/ </p>
-
-      <h3> 07.16. 18:14 </h3>
-      <p> Elkészült az app amiről pár post-tal ezelőtt beszéltem. A Teszt Laborban megtekinthető, Memento Mori névre
-        hallgat. Most nincs túl sok időm írni róla + tesztelni telefonon is, de elvileg sok gond nem lehet vele. Sajna
-        nemsokára mennem kell dolgozni, de holnap részletesen beszámolok erről a kis projektről. </p>
-
-      <!-- https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/ -->
-
-      <a class="anchor" name="latest"></a>
-
-      <h3> 07.17. 17:14 </h3>
-      <p> Ahogy ígértem a Memento Mori-ról pár sor: Akartam egy kis web-appot ami megmutatja hogy átlagosan kb mennyi
-        ideig fogsz még élni. Kissé talán morbid így visszaszámolós stílusban, de nekem így tetszik. Lényegében annyi
-        történik, hogy beírod a születési dátumod, amit kivonunk a jelenlegi dátumból. Így megkapjuk az időt amit eddig
-        leéltél. Aztán ezt kivonjuk az átlag életkorból és a kapott értéktől visszaszámolunk. A fiú/lány dolog ugye
-        azért kell, mert a nők átlagosan tovább élnek. A visszaszámlálós részt neten találtam. Elég szépen le van írva,
-        hogy mi mit csinál benne, de így is kellett némi idő mire nagyjából megértettem a működését. <br>
-        <a href="https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/" target="_blank">Itt a link
-          hozzá.</a> <br>
+      <h3> 01.11. 08:25 </h3>
+      <p>Elég régen volt blog post, aminek sok oka van: pihizni akartam év
+        végén, lusta voltam / nem volt kedvem kódolással foglalkozni,
+        vagy foglalkoztam vele csak nem akartam blogolni. Most, hogy végre megint van blog post, pár szó az oldalon
+        történt változásokról: <br>
         <br>
-        Mikor barimnak meséltem készítés közben, hogy mit fog csinálni az app közbevágott, hogy: "Visszaszámol a
-        következő szülinapodig? Ez tök jó! :)" Sajnos ki kellett ábrándítanom, ez sokkal inkább rám vall, mint a
-        szülinap. Viszont az ötlet nem rossz, úgyhogy majd megcsinálom a szülinaposat is. :) <br>
-        Tegnap ahogy itthagytam a gépet és megnéztem telefonon láttam, hogy elég ramatyul néz ki az egész. Szóval telóra
-        még ki kell pofoznom valamikor. Pedig Dev Toolsban jól nézett ki... <br>
+        - Végre elkészült a főoldal menüvel, Matrix-os háttérrel meg minden. Még nem az igazi, de kezdetnek megteszi.
+        Egyelőre egyik lap sincs normálisan beállítva kisebb kijelzőkhöz,
+        szóval telefonon katasztrófa az egész, de úgy tervezem, hogy ezt hétvégén elintézem. <br>
         <br>
-        Egy ismerősömnek az volt a visszajelzése az oldallal kapcsolatban, hogy a blogban lehetnének elöl a frissebb
-        postok és lehetne tagoltabb. Nos, agyaltam rajta és a tagoltsággal kapcsolatban nem értek egyet. Nekem jobban
-        tetszik így, mert könnyű végiggörgetni rajta és végülis egy sztori az egész. Ha hosszabb postok lennének talán
-        megérné lapozós formában újragondolni. <br>
-        Viszont az, hogy a frissebb postok legyenek elöl teljesen jó ötlet. Erre ma már nem lesz időm, de holnap
-        átrendezem őket. Ezzel a "Legutóbbi post" gomb feleslegessé is válik. Talán később megoldhatnám, hogy minden
-        egyes postot mondjuk egy array elemként tárolok. Így a felhasználó kedve szerint változtathatná hogy a frisset
-        vagy a régit szeretné-e elöl látni. <br>
+        - A blog minden évben egy új lapot kap, ide is lett egy kis menü és egy kényelmes kis link, ami rögtön a
+        legújabb
+        posthoz repíti az ide látogatókat. <br>
+        (Elképesztő, hogy egy átmelózott éjszaka után még képes vagyok így fogalmazni ^^ ) <br>
         <br>
-        Ami a szerverre való feltöltést illeti: Beszéltem a HostGator supporttal, állítólag megoldották a problémát, de
-        nálam továbbra is fennáll a hiba. Elvileg csak annyi a gubanc, hogy megosztott host esetében többen használják
-        ugyanazt a tárhelyet ami megtelt. Csak átirányítanak másik tárhelyre és újra működnie kellene a feltöltésnek.
-        Kényelmi okokból nem ártana ha végre megszűnne a hiba. :) Mégiscsak egyszerűbb volt az FTP progival feltölteni.
-        <br>
-        <br>
-        Bob Martin tanácsára az alapértelmezett szürke szín helyett pirosra állítottam a commentek színét. Még 1-2
-        hónapja megnéztem pár jó hosszú beszédet tőle youtube-on és egyelőre ennyit sikerült hasznosítanom belőle. :D
-      </p>
-
-
-      <!--Üres post: 
-        <a class="anchor" name="latest"></a>
-
-          <h3> ... </h3>
-          <p> ... </p>
-
-          Zene minta:
-          <a href="https://www.youtube.com/watch?v=ui1LGIkjLjk">♫ InnerPartySystem - Don't Stop ♫ </a>
-          -->
+        - A "Titokzatos új projekt" egyelőre stagnál. Önhibámon kívül... a barimra várok akié az oldal lesz. Ahogy
+        ismerem
+        ebből nem mostanában lesz valami szóval létrehoztam még egy linket ami a
+        "Teszt labor" nevet kapta. Kódolást csak úgy tud tanulni az ember, ha gyakorolja is, ezért arra gondoltam, hogy
+        amit egy oktatóvideón megtanulok azt azonnal ki is próbálom és ezeket a spontán
+        próbálkozásokat ide feltöltöm. A link egyelőre nem mutat sehova, de hamarosan meglesz ez is. </p>
 
   </main>
 
