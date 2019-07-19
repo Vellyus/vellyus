@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.color div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+}
