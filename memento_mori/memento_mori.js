@@ -123,7 +123,7 @@ if (day === 09) {
 
 var usersLifeTime = (((currentYear * 12 + currentMonth) * 30 + currentDate)) - ((year * 12 + month) * 30 + day);
 
-var remainingLifeTime = avarageAge - ((((((currentYear * 12 + currentMonth) * 30 + currentDay) * 24 + currentHour) * 60 + currentMinute) * 60 + currentSecond) - ((((year * 12 + month) * 30 + day) * 24 + hour) * 60 + minute) * 60 + second);
+var remainingLifeTime = avarageAge - ((((((currentYear * 12 + currentMonth) * 30 + currentDate) * 24 + currentHour) * 60 + currentMinute) * 60 + currentSecond) - ((((year * 12 + month) * 30 + day) * 24 + hour) * 60 + minute) * 60 + second);
 
 var remainingDays = Math.floor(remainingLifeTime / 60 / 60 / 24);
 
