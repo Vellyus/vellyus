@@ -48,7 +48,7 @@ var day = parseInt(prompt("Which day were you born? (format: 02 / 2)"));
 
 var currentYear = new Date().getFullYear();
 var currentMonth = new Date().getMonth() + 1;
-var currentDay = new Date().getDate();
+var currentDate = new Date().getDate();
 var currentHour = new Date().getHours();
 var currentMinute = new Date().getMinutes();
 var currentSecond = new Date().getSeconds();
