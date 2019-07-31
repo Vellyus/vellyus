@@ -48,7 +48,7 @@ var day = parseInt(prompt("Which day were you born? (format: 02 / 2)"));
 
 var currentYear = new Date().getFullYear();
 var currentMonth = new Date().getMonth() + 1;
-var currentDay = new Date().getDay();
+var currentDay = new Date().getDate();
 var currentHour = new Date().getHours();
 var currentMinute = new Date().getMinutes();
 var currentSecond = new Date().getSeconds();
@@ -133,3 +133,11 @@ document.write("<p>You have lived more than " + usersLifeTime + " days so far. Y
 
 var deadline = new Date(Date.parse(new Date()) + remainingLifeTime * 1000);
 initializeClock('clockdiv', deadline);
+
+
+console.log(currentYear);
+console.log(currentMonth);
+console.log(currentDate);
+console.log(currentHour);
+console.log(currentMinute);
+console.log(currentSecond);
