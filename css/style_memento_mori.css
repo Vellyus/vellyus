@@ -71,13 +71,14 @@ h2 {
     font-size: 16px;
 }
 
+/* nem működik, mert a viewport meta ki van kapcsolva */
 @media (max-width: 706px) {
-    #clockdiv {
-        /* display: flex;
+    /* #clockdiv {
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center; */
-    }
+        align-items: center;
+    } */
 
     #clockdiv>div {
         padding: 5px;
