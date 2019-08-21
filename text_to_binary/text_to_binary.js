@@ -56,7 +56,7 @@ const alphabet = {
 
 };
 
-var word = prompt('Type in a word!');
+var word = prompt('Type in something! Words will be separated by underline characters, sentence punctuation will be usual.');
 
 var letters = [];
 var digits = [];
