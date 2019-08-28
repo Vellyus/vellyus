@@ -39,12 +39,12 @@ button {
     padding: .65em 1em;
     border-radius: .3em;
     outline: 0;
-    margin: 0.5em;
 }
 
 input {
     border: 1px solid #dcdcdc;
     margin-right: 1em;
+    margin: 0.5em;
 }
 
 div {
