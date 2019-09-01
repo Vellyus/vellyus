@@ -70,6 +70,16 @@ for (let i = 0; i < bytes.length; i++) {
         letters.push("!");
     } else if (bytes[i] === "?") {
         letters.push("?");
+    } else if (bytes[i] === ",") {
+        letters.push(",");
+    } else if (bytes[i] === ";") {
+        letters.push(";");
+    } else if (bytes[i] === ":") {
+        letters.push(":");
+    } else if (bytes[i] === "/") {
+        letters.push("/");
+    } else if (bytes[i] === "=") {
+        letters.push("=");
     } else
         letters.push(alphabet[bytes[i]]);
 }

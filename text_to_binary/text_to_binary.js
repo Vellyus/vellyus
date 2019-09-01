@@ -75,6 +75,16 @@ for (let i = 0; i < letters.length; i++) {
         digits.push("!");
     } else if (letters[i] === "?") {
         digits.push("?");
+    } else if (letters[i] === ",") {
+        digits.push(",");
+    } else if (letters[i] === ";") {
+        digits.push(";");
+    } else if (letters[i] === ":") {
+        digits.push(":");
+    } else if (letters[i] === "/") {
+        digits.push("/");
+    } else if (letters[i] === "=") {
+        digits.push("=");
     } else {
         digits.push(alphabet[letters[i]]);
 
