@@ -26,3 +26,13 @@ hr {
     margin-right: auto;
 
 }
+
+@media (max-width: 706px) {
+    body {
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 90%;
+    }
+}
