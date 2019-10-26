@@ -8,5 +8,5 @@ do {
         console.log(i);
     }
     input -= numerals[i];
-    document.write(romanNumerals[i]);
+    document.querySelector('.output').innerText += romanNumerals[i];
 } while (input > 0)
