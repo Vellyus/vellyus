@@ -3,9 +3,11 @@
 body {
   background-color: black;
   line-height: 1.5;
-  color:#99ff99; <!-- Matrix font color:#9FFFB8 -->;
-  font-family:"Courier New", Courier, monospace;
-  text-align:center;
+  color: #99ff99;
+  /* Matrix font color:#9FFFB8 */
+  ;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 
 
   /*
@@ -18,45 +20,72 @@ body {
   */
 
 
-   background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
-   -webkit-animation: snow 20s linear infinite;
-   -moz-animation: snow 20s linear infinite;
-   -ms-animation: snow 20s linear infinite;
-   animation: snow 20s linear infinite;
-  }
+  background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
+}
 
 
-  @-webkit-keyframes snow {
-      0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-      50% { background-color: black; }
-      100% {
-          background-position: 500px 1000px, 400px 400px, 300px 300px;
-          background-color: black;
-      }
+@-webkit-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px
   }
-  @-moz-keyframes snow {
-      0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-      50% { background-color: black; }
-      100% {
-          background-position: 500px 1000px, 400px 400px, 300px 300px;
-          background-color: black;
-      }
+
+  50% {
+    background-color: black;
   }
-  @-ms-keyframes snow {
-      0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-      50% { background-color: black; }
-      100% {
-          background-position: 500px 1000px, 400px 400px, 300px 300px;
-          background-color: black;
-      }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: black;
   }
-  @keyframes snow {
-      0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-      50% { background-color: black; }
-      100% {
-          background-position: 500px 1000px, 400px 400px, 300px 300px;
-          background-color: black;
-      }
+}
+
+@-moz-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: black;
+  }
+}
+
+@-ms-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: black;
+  }
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: black;
+  }
 
 
 
@@ -70,7 +99,7 @@ main {
   font-weight: bold;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 
 footer {
@@ -82,7 +111,7 @@ footer {
 }
 
 h4 {
-  margin-top:0px;
+  margin-top: 0px;
   font-style: italic;
 }
 
@@ -91,20 +120,20 @@ p {
 }
 
 a {
-  color:#99ff99;
+  color: #99ff99;
 }
 
 .time {
-  font-size:18px;
+  font-size: 18px;
   font-style: italic;
 }
 
 #snowyHill {
   display: block;
-  width:56%;
+  width: 56%;
   position: fixed;
-  bottom:0;
-  left:22%;
+  bottom: 0;
+  left: 22%;
 }
 
 #w_u_c {
@@ -112,15 +141,15 @@ a {
 }
 
 ul {
-	list-style-type:none;
-	text-align:center;
-	padding:0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
   margin: 30px;
 }
 
-li  {
-	display: inline-block;
-	border: solid 4px #99ff99;
+li {
+  display: inline-block;
+  border: solid 4px #99ff99;
   border-radius: 5px;
   font-size: 24px;
   margin: 10px;
