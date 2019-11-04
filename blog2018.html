@@ -1,342 +1,377 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-  <title>Vellyus / Blog</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style_normalize.css">
-  <link rel="stylesheet" href="css/style_blog.css">
-  <link rel="icon" href="img/logo2.png">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140383709-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-140383709-1');
-  </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/blog.css">
+    <title>Document</title>
 </head>
 
 <body>
+    <!-- Nyitólap -->
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vellyus <span class="text-white">/ We<b>Blog</b></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link ml-2" href="#">A lap tetejére</a>
+                    <a class="nav-item nav-link ml-2" href="#bottom">A lap aljára</a>
+                    <a class="nav-item nav-link ml-2" href="index.html#blog" id="back">Vissza</a>
+                </div>
+            </div>
+    </nav>
+    <!-- /nav -->
+    <div class="container text-white">
+
+        <!--Zene minta: 
+      <a href="https://www.youtube.com/watch?v=ui1LGIkjLjk">♫ InnerPartySystem - Don't Stop ♫ </a>
+          -->
+
+        <h2>2018.</h2>
+
+        <h3> 12.25. 13:06 </h3>
+        <p>Ma vettem észre, hogy pár napja sikerült eltűntetnem egy blog postot, szóval ma ezt pótolom. Plusz mostanában
+            nem
+            nagyon foglalkoztam kódolással,
+            szóval ideje megint aktivizálódni. Holnap nem leszek, szóval ma kicsit bele kell húznom. :) <br>
+            Itt van pár screenshot az oldalról. Hogy miért kellenek ezek? Pár dolgot máshogy szeretnék csinálni a
+            jövőben és
+            nem árt megörökíteni az oldal jelenlegi állapotát.<br>
+            <br>
+            <a href="img/screenshot1.png" target="_blank"> <img src="img/screenshot1.png" alt="screenshot"
+                    class="kisKépek" title="Screenshot1"> </a>
+            <a href="img/screenshot2.png" target="_blank"> <img src="img/screenshot2.png" alt="screenshot"
+                    class="kisKépek" title="Screenshot2"> </a>
+            <a href="img/screenshot3.png" target="_blank"> <img src="img/screenshot3.png" alt="screenshot"
+                    class="kisKépek" title="Screenshot3"> </a>
+            <a href="img/screenshot4.png" target="_blank"> <img src="img/screenshot4.png" alt="screenshot"
+                    class="kisKépek" title="Screenshot4"> </a> <br>
+            <br>
+            Amiket a jövőben másképp szeretnék csinálni: <br>
+            <br>
+            -Szeretnék változtatni a stíluson. Nem vészes a mostani sem, de eredetileg fekete-fehéret szerettem volna.
+            Az a
+            színkombináció azért lett elvetve, mert tudtam, hogy akarok majd téli témát
+            és a fehér hópihéktől olvashatatlan lett volna a fehér szöveg. Nos a háttérben való hóesés így is zavart
+            néhány
+            embert az olvasásban, szóval arra jutottam, hogy a jövőben mellőzöm az ilyesmit
+            és inkább csak egy külön lapot csinálok ami olyan lesz mint egy képeslap. Így ezek a szezonális dolgok nem
+            befolyásolják az oldal stílusát, úgy alakítgatom ahogy csak szeretném. Nem biztos,
+            hogy fekete-fehér lesz, valamiféle változás biztosan várható. <br>
+            -Egy másik változtatás, hogy most kissé túlméretezettre sikerült minden, és gépen annyira nem is, de
+            telefonon
+            hülyén néz ki, szóval kicsit szerintem minden kisebb lesz. <br>
+            <br>
+            Az elveszett blog post: <br>
+            <br>
+            Hogy tehetsz szert saját weboldalra? <br>
+            Egészen pontosan azt fogom elmondani, hogy én hogy csináltam az enyémet. Nem fogom lépésről lépésre
+            megmutatni,
+            hogy mit kell tenned, ehhez sok helyen találhatsz útmutatókat.
+            A <a href="https://www.google.com/" target="_blank">Google</a> a barátod...
+            Először is szükséged van egy domain névre, ami nálam ugye a "vellyus.com". Én a GoDaddy-nél vettem, talán
+            ott a
+            legolcsóbb.
+            Aztán szükség van egy szerverre ami hostolja a weboldalad. Erre a célra én a HostGator-t választottam,
+            fontos hogy
+            a host olcsó és megbízható legyen. Aztán hogy ne kelljen folyton a HostGator
+            control paneljébe belépegetni le letöltöttem egy FileZilla nevű FTP klienst. Ez a progi lényegében összeköti
+            a
+            géped a webszerverrel, így egyetlen egérmozdulattal tudsz a gépről fájlokat tölteni
+            a szerverre, vagy fordítva. A FileZilla ingyenes, Mac-re ha jól tudom a Cyberduck egy hasonló ingyenes
+            progi. A
+            kódoláshoz minden operációs rendszerhez vannak ingyenesen elérhető programok,
+            én Windows-t használok és az Atom nevű code editorral teljes mértékben meg vagyok elégedve. Kezdőként is
+            könnyen
+            kezelhető, és ha minden projeket saját mappába különítesz el akkor átlátható. <br>
+            <br>
+            Mellesleg ez az első blog post amit a telefonomról írtam. Hogy lehetséges ez? Nos telefonra is le lehet
+            tölteni
+            kódszerkesztő és FTP kliens alkalmazásokat.
+            Én Androidot használok és a QuickEdit valamint az AndFTP nevű alkalmazásokra esett a választásom. Csak arra
+            figyelj, hogy ha valamit változtatsz a weboldaladon
+            és azt feltöltöd a szerverre utána ahogy géphez kerülsz előbb töltsd le a szerverről a friss fájlokat és
+            aztán
+            kezdd el módosítgatni a gépeden lévőket.
+            Ha elfelejted, akkor te is így jársz ahogy most én. :D </p>
+
+        <h3> 12.18. 18:05 </h3>
+        <p>Kiderült, hogy csak az Opera hozza be lassan az oldallal történő változtatásokat, szóval váltottam
+            Firefox-ra. Az
+            Opera valamiért sokszor egy korábbi
+            változatot tölt be, nem értem, hogy miért... Plusz létrehoztam egy e-mail címet csak ennek az oldalnak, hogy
+            ha
+            valakinek közlendője támad legyen lehetősége leírni. </p>
+
+        <h3> 12.17. 10:54 </h3>
+        <p>Az új logó: &nbsp; &nbsp; <img id="logopic" src="img/logo.png" alt="logo"> <br><br>
+            Egyszerűbb, olvashatóbb és jobban illik a weboldalhoz. A zöld keret nem része, de a blog fekete hátterében
+            nem
+            látszott rendesen. </p>
+
+        <h3> 12.17. 10:19 </h3>
+        <p>Valamikor a héten elkezdtem egy logo tervezgetését, ha lehet ezt annak nevezni. :D Már régóta le akarom
+            cserélni
+            az eredeti HostGater-es ikont a weblapon.
+            Az A-terv az volt, hogy olyan logót csinálok ami tartalmazza a nevem betűit és csinálok belőle egy GIF-et.
+            Végül
+            csak a Velly jött ki, és kiderült hogy a weblap ikonja nem lehet GIF.
+            Szóval igazából kuka az egész, és már van egy B-tervem, de jól elvoltam vele és szeretném megörökíteni ezt a
+            kis
+            kudarcot is. :) <br><br>
+            Íme a firkálmányaim: <br><br>
+            <img src="img/logo_firka1.png" alt="logo vázlat">
+            <img src="img/logo_firka2.png" alt="logo vázlat">
+            <img src="img/logo_firka3.png" alt="logo vázlat">
+            <img src="img/logo_firka4.png" alt="logo vázlat">
+            <img src="img/logo_firka5.png" alt="logo vázlat">
+            <img src="img/logo_firka6.png" alt="logo vázlat"><br>
+            <img src="img/V.png" alt="logo kép1">
+            <img src="img/E.png" alt="logo kép2">
+            <img src="img/L.png" alt="logo kép3">
+            <img src="img/L_2.png" alt="logo kép4">
+            <img src="img/Y.png" alt="logo kép5"><br>
+            <img src="img/Velly.gif" alt="logo gif"> </p>
+
+        <h3> 12.16. 18:36 </h3>
+        <p>Ma végre tudtam kicsit kreatívkodni. Elkészült a main page (bár még biztosan lesznek rajta változtatások) és
+            készülőben van egy másik page is.
+            Egy barátom megkért, hogy csináljak neki is egy oldalt. Korábban én is gondoltam ilyesmire, szóval örülök
+            hogy ő
+            is szeretne egy oldalt. Így muszáj lesz haladnom és lehetőséget ad a gyakorlásra,
+            plusz ha elakadok új dolgok tanulására. </p>
+
+        <h3> 12.12. 22:10 </h3>
+        <p>Honnan ered a nevem? <br><br>
+            Mostanában nem nagyon blogoltam és a tanfolyammal se haladtam. Elég fárasztó napjaim voltak, semmire se volt
+            időm
+            / energiám. Mi a fenéről blogoljak, ha nem haladtam semmivel? Nos, itt egy kis érdekesség mára: honnan is
+            ered a
+            nevem? <br>
+            A Vellyus nevet először egy WoW karakterem kapta meg, haverok amúgy Vellynek becéznek. Szóval úgy jött, hogy
+            minden jó név foglalt volt, hát egy random név generátorból pár óra szenvedés után sikerült ezt
+            kiválasztani.
+            Nagy előnye, hogy semmit sem jelent, így sehol sem foglalt. Elég sokat játszottam ezzel a karakteremmel,
+            megszoktam hogy így hívnak és azóta kb mindenhol ezt a nevet használom. Magyarok szokták érdekesen kiejteni,
+            szóval a biztonság kedvéért elmondanám, hogy "Velliusz"-nak kell ejteni. :)</p>
+
+        <h3> 12.09. 22:13 </h3>
+        <p>Hát ez a nap se úgy alakult ahogy elterveztem. A HTML-ből nem lett semmi, holnapra marad, de némi progress
+            azért
+            ma is történt: <br>
+            - A kellemesebb olvasói élmény érdekében a betűszín egy <a
+                href="https://idegen-szavak.hu/nüansz?fbclid=IwAR0xBSzVcDIQov_hqChiLMX2C9R1kbe-TWW13haoA3iTshc1XeyZa-Yufuo"
+                target="_blank">nüansznyit</a> sötétebb lett ;) <br>
+            - Kipróbáltam egy Vampire Black háttérszínt is, de könnyebb a szöveget olvasni ha sima fekete marad a
+            háttér. <br>
+            - Beállítottam egy margót %-ban megadva, hogy telefonon se legyen belőle probléma és nagyobb képernyőn se
+            kelljen
+            túl sok fejmozgás az olvasáshoz. <br>
+            - Ezen kívül kiderült hogy korábban miért nem tudtam módosítani az oldalt CSS-ben, de HTML-ben igen.
+            Valamiért ha
+            CSS fájlt írok felül a szerveren azt lassabban dolgozza fel, kell kb fél óra mire végbemegy a változtatás.
+            Hogy ez miért van így azt még mindig nem tudom... </p>
+
+        <h3> 12.09. 07:28 </h3>
+        <p>Vasárnap reggel van, de nekem ez valójában szombat este. A szombatom a pihenésről szólt, semmi kedvem nem
+            volt
+            haladni. Remélhetőleg a mai napom kissé
+            progresszívebb lesz, de lehet hogy most már megpróbálok estig fent maradni ami lehet hogy ahhoz vezet majd
+            hogy
+            zombi leszek. Hétköznap meló mellett megint nem lesz sok kedvem tanulngatni,
+            szóval a HTML tanfolyamot végig kéne pörgetnem mostanában, jövő hétvégén meg mondjuk a CSS-t és utána végre
+            belevághatnék a JavaScriptbe ami már elvileg sokkal nehezebb lesz
+            (korábban már belenéztem, de csak az alapokról volt szó).</p>
+
+        <h3> 12.07. 16:48 </h3>
+        <p>Miért ilyen a blog?<br><br>
+            Ahogy látod, ennek a blognak a formátuma egy kissé eltér a normális, elterjedt blogolási formától. A nomrál
+            blogolási forma szerint minden bejegyzésnek kellene egy téma, egy cím és a kontextusból kiragadva
+            is lenne értelme egy-egy postnak. Sok esetben minden egyes post új lapon nyitható meg és a szöveg mellett
+            képek,
+            videók is vannak. Ezzel szemben én inkább csak naplószerűen írok rövidebb postokat.
+            Ez a formátum később még változhat, hiszen ahogy fejlődök folyamatosan változik az oldal is.<br>
+            Egyelőre azonban célravezetőbbnek tartom a rövidebb postokat a cél ugyanis elsősorban a fejlődésem
+            dokumentálása.
+            Ezen kívül úgy érzem, hogy ha heti pár postot szeretnék kirakni, amik mondjuk kicsit terjedelmesebbek és
+            összefoglalják pár nap eseményeit egyszerűen nem tudnám rendesen összeszedni a gondolataim egy
+            ilyen megírásához. Ha viszont mindent leírok amig friss az élmény nem veszik el semmi.</p>
+
+        <h3> 12.05. 09:41 </h3>
+        <p>Valamiért ha HTML-ben állítgatom a lábjegyzet stílusát, akkor minden működik, de ha átrakom ugyanazt a CSS-be
+            problémákba ütközök. Ha offline nyitom meg
+            teljesen jó, de amint feltöltöm a szerverre működésképtelenné válik. Ez számomra teljesen érthetetlen...
+            egyelőre
+            hagyom HTML-ben ezeket a részeket. -.- </p>
+
+        <h3> 12.05. 08:25 </h3>
+        <p>Kísérleteztem kicsit a lábjegyzettel és nagyon meg vagyok elégedve az eredménnyel. Sikerült megfelelő képet
+            találni, megoldani hogy a kép hátterében is essen a hó,
+            végig alul tartani ahogy legörgetünk az oldalon, középre rakni és méretezni. Telefonon kicsit furán néz ki.
+            Állítva túl kicsi a kép, a telót eldöntve meg túl nagy, de annyira nem zavar. <br>
+            Kicsit talán zavaró lehet úgy olvasni a szöveget, hogy esik a hó a háttérben meg a lábjegyzet is itt
+            lábatlankodik
+            alul. Úgyhogy ha elkészül a main page (még neki se álltam),
+            akkor valószínűleg minden ilyesmit oda rakok, itt pedig marad a szimpla fekete háttér. </p>
+
+        <h3> 12.04. 11:28 </h3>
+        <p>Találtam a neten Matrixos hátteret. Még mindig nem tudok ilyet csinálni, de a készítő elég részletesen
+            leírta,
+            hogy melyik kódsor mit is csinál szóval talán
+            sikerül berakni háttérnek. Nade nem erre a lapra, ha a blog hátterében futna olvashatatlanná válna a szöveg.
+            Úgy
+            képzelem, hogy lesz egy main page egy menüvel és az alatt fog futni a Matrixos háttér. <br>
+            <a href="MatrixBackground.html" target=_blank>Itt a link a háttérhez</a> <br> <br>
+
+            Csak az nem tetszik benne, hogy a filmben nem épp ilyen karakterekből állt ez a "kód", szóval valahonnan elő
+            kell
+            keresnem azokat a karaktereket és átírni a scriptben lévőket. Most nincs időm ilyesmikkel
+            szórakozni, de később mindenképp nekiállok, aztán meglátjuk mit sikerül mindebből megvalósítani. </p>
+
+        <h3> 12.04. 07:08 </h3>
+        <p>Megvan, hogy miért akadozott telefonon a háttér: nem a ratyi Samsungos böngészőt kellett volna használni,
+            hanem
+            mondjuk Chrome-ot. :) <br>
+            <i>( 12.04. 11:15 - Megjegyzés: Chrome-ban a zenét is automatikusan elindítja. ) </i> </p>
 
 
-
-  <header>
-
-    <h1>
-      <span class="normal">We</span>b log
-    </h1>
-
-    <h4>Üdv a blogomban! A nevem Vellyus. Ennek a blognak a fő célja az, hogy dokumentálja a fejlődésem, ugyanis
-      elhatároztam hogy webfejlesztést fogok tanulgatni. <br>
-      Itt tehát főleg erről lesz szó pár random gondolattal tarkítva, ami épp átfut az agyamon.</h4>
-
-  </header>
-
-  <aside class="blognav">
-    <ul>
-      <li><a href="blog2019.html">
-          2019.
-        </a></li>
-      <li><a href="blog2018.html">
-          2018.
-        </a></li>
-      <li><a href="#oldest">
-          Legrégebbi post
-        </a></li>
-    </ul>
-  </aside>
-
-  <main>
-
-    <!--Üres post:
-    <a class="anchor" name="oldest"></a>
-
-      <h3> ... </h3>
-      <p> ... </p>
-
-      Zene minta:
-        <a href="https://www.youtube.com/watch?v=ui1LGIkjLjk">♫ InnerPartySystem - Don't Stop ♫ </a>
-    -->
+        <h3> 12.03. 22:16 </h3>
+        <p>Oké, a némításra egy megoldás: jobb klikk a lapra, aztán "Lap némítása" / "Lap hangosítása". Operán
+            legalábbis
+            így működik, biztosan van rá megoldás
+            a többi böngészőben is. Le kéne töltenem a Chrome-ot meg a Mozillát is, hogy megnézzem azokon milyen az
+            oldal, de
+            ezt is majd később.</p>
 
 
-    <h2>2018.</h2>
+        <h3> 12.03. 22:02 </h3>
+        <p>A háttér jobb telón nem akadozik, a zene viszont nem a legjobb. Az iPhone-on állítólag semmi, Androidon
+            feldobja,
+            hogy letöltheted vagy társíthatod valami lejátszóhoz.
+            Ha lejátszást választasz pl. VLC-vel akkor működik. WindowsPhone-on még nem volt alkalmam kipróbálni. Ha
+            vége a
+            számnak nem indul újra, nem tudom hogy akarom-e, hogy folyton menjen...
+            Engem már kezd idegesíteni, hiszen én rendszeresen nézegetem az oldalt. Jó lenne valamikor egy némító gombot
+            rakni
+            valahova hogy ne kelljen az op.rendszer hangkezelőjében matatni valahányszor az oldalt nézem.
+            Most nincs kedvem ehhez, de majd később talán megcsinálom. Kéne még egy kis <a
+                href="https://teamtreehouse.com/" target="_blank">Treehouse</a>, aztán asszem mára ennyi elég is lesz.
+        </p>
 
-    <h3> 12.25. 13:06 </h3>
-    <p>Ma vettem észre, hogy pár napja sikerült eltűntetnem egy blog postot, szóval ma ezt pótolom. Plusz mostanában nem
-      nagyon foglalkoztam kódolással,
-      szóval ideje megint aktivizálódni. Holnap nem leszek, szóval ma kicsit bele kell húznom. :) <br>
-      Itt van pár screenshot az oldalról. Hogy miért kellenek ezek? Pár dolgot máshogy szeretnék csinálni a jövőben és
-      nem árt megörökíteni az oldal jelenlegi állapotát.<br>
-      <br>
-      <a href="img/screenshot1.png" target="_blank"> <img src="img/screenshot1.png" alt="screenshot" class="kisKépek"
-          title="Screenshot1"> </a>
-      <a href="img/screenshot2.png" target="_blank"> <img src="img/screenshot2.png" alt="screenshot" class="kisKépek"
-          title="Screenshot2"> </a>
-      <a href="img/screenshot3.png" target="_blank"> <img src="img/screenshot3.png" alt="screenshot" class="kisKépek"
-          title="Screenshot3"> </a>
-      <a href="img/screenshot4.png" target="_blank"> <img src="img/screenshot4.png" alt="screenshot" class="kisKépek"
-          title="Screenshot4"> </a> <br>
-      <br>
-      Amiket a jövőben másképp szeretnék csinálni: <br>
-      <br>
-      -Szeretnék változtatni a stíluson. Nem vészes a mostani sem, de eredetileg fekete-fehéret szerettem volna. Az a
-      színkombináció azért lett elvetve, mert tudtam, hogy akarok majd téli témát
-      és a fehér hópihéktől olvashatatlan lett volna a fehér szöveg. Nos a háttérben való hóesés így is zavart néhány
-      embert az olvasásban, szóval arra jutottam, hogy a jövőben mellőzöm az ilyesmit
-      és inkább csak egy külön lapot csinálok ami olyan lesz mint egy képeslap. Így ezek a szezonális dolgok nem
-      befolyásolják az oldal stílusát, úgy alakítgatom ahogy csak szeretném. Nem biztos,
-      hogy fekete-fehér lesz, valamiféle változás biztosan várható. <br>
-      -Egy másik változtatás, hogy most kissé túlméretezettre sikerült minden, és gépen annyira nem is, de telefonon
-      hülyén néz ki, szóval kicsit szerintem minden kisebb lesz. <br>
-      <br>
-      Az elveszett blog post: <br>
-      <br>
-      Hogy tehetsz szert saját weboldalra? <br>
-      Egészen pontosan azt fogom elmondani, hogy én hogy csináltam az enyémet. Nem fogom lépésről lépésre megmutatni,
-      hogy mit kell tenned, ehhez sok helyen találhatsz útmutatókat.
-      A <a href="https://www.google.com/" target="_blank">Google</a> a barátod...
-      Először is szükséged van egy domain névre, ami nálam ugye a "vellyus.com". Én a GoDaddy-nél vettem, talán ott a
-      legolcsóbb.
-      Aztán szükség van egy szerverre ami hostolja a weboldalad. Erre a célra én a HostGator-t választottam, fontos hogy
-      a host olcsó és megbízható legyen. Aztán hogy ne kelljen folyton a HostGator
-      control paneljébe belépegetni le letöltöttem egy FileZilla nevű FTP klienst. Ez a progi lényegében összeköti a
-      géped a webszerverrel, így egyetlen egérmozdulattal tudsz a gépről fájlokat tölteni
-      a szerverre, vagy fordítva. A FileZilla ingyenes, Mac-re ha jól tudom a Cyberduck egy hasonló ingyenes progi. A
-      kódoláshoz minden operációs rendszerhez vannak ingyenesen elérhető programok,
-      én Windows-t használok és az Atom nevű code editorral teljes mértékben meg vagyok elégedve. Kezdőként is könnyen
-      kezelhető, és ha minden projeket saját mappába különítesz el akkor átlátható. <br>
-      <br>
-      Mellesleg ez az első blog post amit a telefonomról írtam. Hogy lehetséges ez? Nos telefonra is le lehet tölteni
-      kódszerkesztő és FTP kliens alkalmazásokat.
-      Én Androidot használok és a QuickEdit valamint az AndFTP nevű alkalmazásokra esett a választásom. Csak arra
-      figyelj, hogy ha valamit változtatsz a weboldaladon
-      és azt feltöltöd a szerverre utána ahogy géphez kerülsz előbb töltsd le a szerverről a friss fájlokat és aztán
-      kezdd el módosítgatni a gépeden lévőket.
-      Ha elfelejted, akkor te is így jársz ahogy most én. :D </p>
-
-    <h3> 12.18. 18:05 </h3>
-    <p>Kiderült, hogy csak az Opera hozza be lassan az oldallal történő változtatásokat, szóval váltottam Firefox-ra. Az
-      Opera valamiért sokszor egy korábbi
-      változatot tölt be, nem értem, hogy miért... Plusz létrehoztam egy e-mail címet csak ennek az oldalnak, hogy ha
-      valakinek közlendője támad legyen lehetősége leírni. </p>
-
-    <h3> 12.17. 10:54 </h3>
-    <p>Az új logó: &nbsp; &nbsp; <img id="logopic" src="img/logo.png" alt="logo"> <br><br>
-      Egyszerűbb, olvashatóbb és jobban illik a weboldalhoz. A zöld keret nem része, de a blog fekete hátterében nem
-      látszott rendesen. </p>
-
-    <h3> 12.17. 10:19 </h3>
-    <p>Valamikor a héten elkezdtem egy logo tervezgetését, ha lehet ezt annak nevezni. :D Már régóta le akarom cserélni
-      az eredeti HostGater-es ikont a weblapon.
-      Az A-terv az volt, hogy olyan logót csinálok ami tartalmazza a nevem betűit és csinálok belőle egy GIF-et. Végül
-      csak a Velly jött ki, és kiderült hogy a weblap ikonja nem lehet GIF.
-      Szóval igazából kuka az egész, és már van egy B-tervem, de jól elvoltam vele és szeretném megörökíteni ezt a kis
-      kudarcot is. :) <br><br>
-      Íme a firkálmányaim: <br><br>
-      <img src="img/logo_firka1.png" alt="logo vázlat">
-      <img src="img/logo_firka2.png" alt="logo vázlat">
-      <img src="img/logo_firka3.png" alt="logo vázlat">
-      <img src="img/logo_firka4.png" alt="logo vázlat">
-      <img src="img/logo_firka5.png" alt="logo vázlat">
-      <img src="img/logo_firka6.png" alt="logo vázlat"><br>
-      <img src="img/V.png" alt="logo kép1">
-      <img src="img/E.png" alt="logo kép2">
-      <img src="img/L.png" alt="logo kép3">
-      <img src="img/L_2.png" alt="logo kép4">
-      <img src="img/Y.png" alt="logo kép5"><br>
-      <img src="img/Velly.gif" alt="logo gif"> </p>
-
-    <h3> 12.16. 18:36 </h3>
-    <p>Ma végre tudtam kicsit kreatívkodni. Elkészült a main page (bár még biztosan lesznek rajta változtatások) és
-      készülőben van egy másik page is.
-      Egy barátom megkért, hogy csináljak neki is egy oldalt. Korábban én is gondoltam ilyesmire, szóval örülök hogy ő
-      is szeretne egy oldalt. Így muszáj lesz haladnom és lehetőséget ad a gyakorlásra,
-      plusz ha elakadok új dolgok tanulására. </p>
-
-    <h3> 12.12. 22:10 </h3>
-    <p>Honnan ered a nevem? <br><br>
-      Mostanában nem nagyon blogoltam és a tanfolyammal se haladtam. Elég fárasztó napjaim voltak, semmire se volt időm
-      / energiám. Mi a fenéről blogoljak, ha nem haladtam semmivel? Nos, itt egy kis érdekesség mára: honnan is ered a
-      nevem? <br>
-      A Vellyus nevet először egy WoW karakterem kapta meg, haverok amúgy Vellynek becéznek. Szóval úgy jött, hogy
-      minden jó név foglalt volt, hát egy random név generátorból pár óra szenvedés után sikerült ezt kiválasztani.
-      Nagy előnye, hogy semmit sem jelent, így sehol sem foglalt. Elég sokat játszottam ezzel a karakteremmel,
-      megszoktam hogy így hívnak és azóta kb mindenhol ezt a nevet használom. Magyarok szokták érdekesen kiejteni,
-      szóval a biztonság kedvéért elmondanám, hogy "Velliusz"-nak kell ejteni. :)</p>
-
-    <h3> 12.09. 22:13 </h3>
-    <p>Hát ez a nap se úgy alakult ahogy elterveztem. A HTML-ből nem lett semmi, holnapra marad, de némi progress azért
-      ma is történt: <br>
-      - A kellemesebb olvasói élmény érdekében a betűszín egy <a
-        href="https://idegen-szavak.hu/nüansz?fbclid=IwAR0xBSzVcDIQov_hqChiLMX2C9R1kbe-TWW13haoA3iTshc1XeyZa-Yufuo"
-        target="_blank">nüansznyit</a> sötétebb lett ;) <br>
-      - Kipróbáltam egy Vampire Black háttérszínt is, de könnyebb a szöveget olvasni ha sima fekete marad a háttér. <br>
-      - Beállítottam egy margót %-ban megadva, hogy telefonon se legyen belőle probléma és nagyobb képernyőn se kelljen
-      túl sok fejmozgás az olvasáshoz. <br>
-      - Ezen kívül kiderült hogy korábban miért nem tudtam módosítani az oldalt CSS-ben, de HTML-ben igen. Valamiért ha
-      CSS fájlt írok felül a szerveren azt lassabban dolgozza fel, kell kb fél óra mire végbemegy a változtatás.
-      Hogy ez miért van így azt még mindig nem tudom... </p>
-
-    <h3> 12.09. 07:28 </h3>
-    <p>Vasárnap reggel van, de nekem ez valójában szombat este. A szombatom a pihenésről szólt, semmi kedvem nem volt
-      haladni. Remélhetőleg a mai napom kissé
-      progresszívebb lesz, de lehet hogy most már megpróbálok estig fent maradni ami lehet hogy ahhoz vezet majd hogy
-      zombi leszek. Hétköznap meló mellett megint nem lesz sok kedvem tanulngatni,
-      szóval a HTML tanfolyamot végig kéne pörgetnem mostanában, jövő hétvégén meg mondjuk a CSS-t és utána végre
-      belevághatnék a JavaScriptbe ami már elvileg sokkal nehezebb lesz
-      (korábban már belenéztem, de csak az alapokról volt szó).</p>
-
-    <h3> 12.07. 16:48 </h3>
-    <p>Miért ilyen a blog?<br><br>
-      Ahogy látod, ennek a blognak a formátuma egy kissé eltér a normális, elterjedt blogolási formától. A nomrál
-      blogolási forma szerint minden bejegyzésnek kellene egy téma, egy cím és a kontextusból kiragadva
-      is lenne értelme egy-egy postnak. Sok esetben minden egyes post új lapon nyitható meg és a szöveg mellett képek,
-      videók is vannak. Ezzel szemben én inkább csak naplószerűen írok rövidebb postokat.
-      Ez a formátum később még változhat, hiszen ahogy fejlődök folyamatosan változik az oldal is.<br>
-      Egyelőre azonban célravezetőbbnek tartom a rövidebb postokat a cél ugyanis elsősorban a fejlődésem dokumentálása.
-      Ezen kívül úgy érzem, hogy ha heti pár postot szeretnék kirakni, amik mondjuk kicsit terjedelmesebbek és
-      összefoglalják pár nap eseményeit egyszerűen nem tudnám rendesen összeszedni a gondolataim egy
-      ilyen megírásához. Ha viszont mindent leírok amig friss az élmény nem veszik el semmi.</p>
-
-    <h3> 12.05. 09:41 </h3>
-    <p>Valamiért ha HTML-ben állítgatom a lábjegyzet stílusát, akkor minden működik, de ha átrakom ugyanazt a CSS-be
-      problémákba ütközök. Ha offline nyitom meg
-      teljesen jó, de amint feltöltöm a szerverre működésképtelenné válik. Ez számomra teljesen érthetetlen... egyelőre
-      hagyom HTML-ben ezeket a részeket. -.- </p>
-
-    <h3> 12.05. 08:25 </h3>
-    <p>Kísérleteztem kicsit a lábjegyzettel és nagyon meg vagyok elégedve az eredménnyel. Sikerült megfelelő képet
-      találni, megoldani hogy a kép hátterében is essen a hó,
-      végig alul tartani ahogy legörgetünk az oldalon, középre rakni és méretezni. Telefonon kicsit furán néz ki.
-      Állítva túl kicsi a kép, a telót eldöntve meg túl nagy, de annyira nem zavar. <br>
-      Kicsit talán zavaró lehet úgy olvasni a szöveget, hogy esik a hó a háttérben meg a lábjegyzet is itt lábatlankodik
-      alul. Úgyhogy ha elkészül a main page (még neki se álltam),
-      akkor valószínűleg minden ilyesmit oda rakok, itt pedig marad a szimpla fekete háttér. </p>
-
-    <h3> 12.04. 11:28 </h3>
-    <p>Találtam a neten Matrixos hátteret. Még mindig nem tudok ilyet csinálni, de a készítő elég részletesen leírta,
-      hogy melyik kódsor mit is csinál szóval talán
-      sikerül berakni háttérnek. Nade nem erre a lapra, ha a blog hátterében futna olvashatatlanná válna a szöveg. Úgy
-      képzelem, hogy lesz egy main page egy menüvel és az alatt fog futni a Matrixos háttér. <br>
-      <a href="MatrixBackground.html" target=_blank>Itt a link a háttérhez</a> <br> <br>
-
-      Csak az nem tetszik benne, hogy a filmben nem épp ilyen karakterekből állt ez a "kód", szóval valahonnan elő kell
-      keresnem azokat a karaktereket és átírni a scriptben lévőket. Most nincs időm ilyesmikkel
-      szórakozni, de később mindenképp nekiállok, aztán meglátjuk mit sikerül mindebből megvalósítani. </p>
-
-    <h3> 12.04. 07:08 </h3>
-    <p>Megvan, hogy miért akadozott telefonon a háttér: nem a ratyi Samsungos böngészőt kellett volna használni, hanem
-      mondjuk Chrome-ot. :) <br>
-      <i>( 12.04. 11:15 - Megjegyzés: Chrome-ban a zenét is automatikusan elindítja. ) </i> </p>
+        <h3> 12.03. 21:49 </h3>
+        <p>A havas háttér egyelőre marad ilyen, nekem bejön. A háttérzenét viszonylag hamar sikerült megldani. Meg is
+            van a
+            karácsonyi téma :) .
+            Oké, annyira nem karácsonyos, inkább csak téli, de nem akarok égőket, díszeket, ajándékokat meg fákat, az
+            nekem
+            kicsit giccses.</p>
 
 
-    <h3> 12.03. 22:16 </h3>
-    <p>Oké, a némításra egy megoldás: jobb klikk a lapra, aztán "Lap némítása" / "Lap hangosítása". Operán legalábbis
-      így működik, biztosan van rá megoldás
-      a többi böngészőben is. Le kéne töltenem a Chrome-ot meg a Mozillát is, hogy megnézzem azokon milyen az oldal, de
-      ezt is majd később.</p>
+        <h3> 12.03. 20:42</h3>
+        <p>Gondoltam nekiállok a hóesős háttér elkészítésének, mert közeleg a karácsony és nem tudtam mennyi időmbe fog
+            telni mire találok egyet amit működésre tudok bírni
+            és tetszik is. Lehet ezt elég összetetten is csinálni, de szerencsémre el lehet készíteni csak CSS-ben is,
+            ami
+            lényegesen leegyszerűsíti a dolgokat. A CSS-ben való animálást még mindig nem sajátítottam el,
+            a mostani hátteret csak copyztam, de ránézésre nem tűnik túl bonyolultnak és legközelebb talán már képes
+            leszek
+            egyedi verzióval előállni. <br> <br>
+
+            Néhány probléma a mostani háttérrel: Elég hosszan tart az animáció de ha az ember belemerül és nézi egy
+            ideig
+            idegesítő tud lenni ahogy újraindul. További probléma, hogy nekem telefonon eléggé töredezve
+            fut, még nem tudom mi okozza... Talán csak a kijelző mérete, vagy a készülékben lenne kevés a RAM? <br> <br>
+
+            Még próbálkozok egy kicsit a havas háttérrel, a kövi lépés pedig az lesz hogy valahogy berakom ezt a számot
+            háttérzenének: <a href="https://www.youtube.com/watch?v=9DCdCoQ49u8" target="_blank">♫ Linkin Park - My
+                December ♫
+            </a> </p>
 
 
-    <h3> 12.03. 22:02 </h3>
-    <p>A háttér jobb telón nem akadozik, a zene viszont nem a legjobb. Az iPhone-on állítólag semmi, Androidon feldobja,
-      hogy letöltheted vagy társíthatod valami lejátszóhoz.
-      Ha lejátszást választasz pl. VLC-vel akkor működik. WindowsPhone-on még nem volt alkalmam kipróbálni. Ha vége a
-      számnak nem indul újra, nem tudom hogy akarom-e, hogy folyton menjen...
-      Engem már kezd idegesíteni, hiszen én rendszeresen nézegetem az oldalt. Jó lenne valamikor egy némító gombot rakni
-      valahova hogy ne kelljen az op.rendszer hangkezelőjében matatni valahányszor az oldalt nézem.
-      Most nincs kedvem ehhez, de majd később talán megcsinálom. Kéne még egy kis <a href="https://teamtreehouse.com/"
-        target="_blank">Treehouse</a>, aztán asszem mára ennyi elég is lesz. </p>
-
-    <h3> 12.03. 21:49 </h3>
-    <p>A havas háttér egyelőre marad ilyen, nekem bejön. A háttérzenét viszonylag hamar sikerült megldani. Meg is van a
-      karácsonyi téma :) .
-      Oké, annyira nem karácsonyos, inkább csak téli, de nem akarok égőket, díszeket, ajándékokat meg fákat, az nekem
-      kicsit giccses.</p>
+        <h3> 12.03. 04:57 </h3>
+        <p>Látszólag nem sokminden történt ma az oldalon, de a háttér sokat változott. Az átláthatóság kedvéért a
+            stíluselemeket külön stylesheetre helyeztem
+            (eddig a html-be voltak írva). Könnyebb lett az oldal frissítése egy "FileZilla" nevű proginak köszönhetően
+            (nem
+            kell mindig belépni a HostGator oldalára, csak áthúzom a fájlokat és kész is).
+            A képek linkelése is könnyebbé vált: rájöttem hogy Facebookon tudok magammal chatelni, így nem kell
+            ismerősöket
+            zaklatni az oda feltöltött képekkel. Biztos létre lehetett volna hozni valami privát albumot is,
+            de sose ment túl jól a FB kezelése :D .</p>
 
 
-    <h3> 12.03. 20:42</h3>
-    <p>Gondoltam nekiállok a hóesős háttér elkészítésének, mert közeleg a karácsony és nem tudtam mennyi időmbe fog
-      telni mire találok egyet amit működésre tudok bírni
-      és tetszik is. Lehet ezt elég összetetten is csinálni, de szerencsémre el lehet készíteni csak CSS-ben is, ami
-      lényegesen leegyszerűsíti a dolgokat. A CSS-ben való animálást még mindig nem sajátítottam el,
-      a mostani hátteret csak copyztam, de ránézésre nem tűnik túl bonyolultnak és legközelebb talán már képes leszek
-      egyedi verzióval előállni. <br> <br>
-
-      Néhány probléma a mostani háttérrel: Elég hosszan tart az animáció de ha az ember belemerül és nézi egy ideig
-      idegesítő tud lenni ahogy újraindul. További probléma, hogy nekem telefonon eléggé töredezve
-      fut, még nem tudom mi okozza... Talán csak a kijelző mérete, vagy a készülékben lenne kevés a RAM? <br> <br>
-
-      Még próbálkozok egy kicsit a havas háttérrel, a kövi lépés pedig az lesz hogy valahogy berakom ezt a számot
-      háttérzenének: <a href="https://www.youtube.com/watch?v=9DCdCoQ49u8" target="_blank">♫ Linkin Park - My December ♫
-      </a> </p>
+        <h3> 12.03. 03:27 </h3>
+        <p>Mára is jutott egy kis tanulgatás <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-on,
+            plusz
+            alakítgattam kicsit a blogot:
+            A linkek most már új lapokon nyílnak meg, valamint mobilbarátabbá vált az oldal (szélesség, margók).</p>
 
 
-    <h3> 12.03. 04:57 </h3>
-    <p>Látszólag nem sokminden történt ma az oldalon, de a háttér sokat változott. Az átláthatóság kedvéért a
-      stíluselemeket külön stylesheetre helyeztem
-      (eddig a html-be voltak írva). Könnyebb lett az oldal frissítése egy "FileZilla" nevű proginak köszönhetően (nem
-      kell mindig belépni a HostGator oldalára, csak áthúzom a fájlokat és kész is).
-      A képek linkelése is könnyebbé vált: rájöttem hogy Facebookon tudok magammal chatelni, így nem kell ismerősöket
-      zaklatni az oda feltöltött képekkel. Biztos létre lehetett volna hozni valami privát albumot is,
-      de sose ment túl jól a FB kezelése :D .</p>
+        <h3> 12.02. 05:48 </h3>
+        <p> Egy kis kezdői szerencsétlenkedést követően az oldal végre online! Később lesz több lap is, de egyelőre a
+            blog a
+            main page. <br>
+            <a href="https://www.youtube.com/watch?v=tzRk5EIHAoI" target="_blank">♫ Three Days Grace - The Good Life ♫
+            </a> ^^
+        </p>
 
 
-    <h3> 12.03. 03:27 </h3>
-    <p>Mára is jutott egy kis tanulgatás <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-on, plusz
-      alakítgattam kicsit a blogot:
-      A linkek most már új lapokon nyílnak meg, valamint mobilbarátabbá vált az oldal (szélesség, margók).</p>
+        <h3> 12.02. 03:36 </h3>
+        <p> Mai alkotás Andival. Állat lett :D ->
+            <a href="img/Kép1.jpg" alt="funWeboldal" target="_blank">
+                Kép1</a>
+            <a href="img/Kép2.jpg" alt="funWeboldal" target="_blank">
+                Kép2</a></p>
 
 
-    <h3> 12.02. 05:48 </h3>
-    <p> Egy kis kezdői szerencsétlenkedést követően az oldal végre online! Később lesz több lap is, de egyelőre a blog a
-      main page. <br>
-      <a href="https://www.youtube.com/watch?v=tzRk5EIHAoI" target="_blank">♫ Three Days Grace - The Good Life ♫ </a> ^^
-    </p>
+        <h3>12.01. 22:24 </h3>
+        <p> Kb 2 hét telt el az első post óta, ami lényegében az ötlet megszületésének az időpontját hivatott rögzíteni.
+            A továbbiakban megpróbálok nagyobb rendszerességgel postolni, addig is egy kis összefoglaló arról ami ebben
+            a 2
+            hétben történt: <br>
+            <br>
+            - Elkezdtem tanulni a <a href="https://www.teamtreehouse.com" target="_blank">Treehouse</a>-nál. Egyelőre
+            csak az
+            alapoknál tartok, de mindenképp hasznosnak tartom az eddig tanultakat. <br>
+            - Kezd kirajzolódni egy weboldal képe aminek egy része ez az egyelőre offline blog lesz, de kell egy kis idő
+            mire
+            ez még kiforr. <br>
+            - Nem volt túl sok időm tanulgatni de volt egy kevés HTML, CSS és belenéztem a Javascript-be is.
+            <br> <br>
+            Erről jut eszembe... eddig bárkinek említettem a JavaScript-et mindenki rögtön Java-ra rövidítette,
+            pedig az egyik első dolog amit a <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-nál
+            megtanultam a Javascript-tel kapcsolatban hogy nem azonos a Java-val.</p>
+
+        <a class="anchor" name="oldest"></a>
+
+        <h3>11.19. 00:25 </h3>
+        <p>A kezdet.</p>
+
+        <a class="anchor" id="bottom"></a>
+    </div>
+    <!-- /Nyitólap -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
-    <h3> 12.02. 03:36 </h3>
-    <p> Mai alkotás Andival. Állat lett :D ->
-      <a href="img/Kép1.jpg" alt="funWeboldal" target="_blank">
-        Kép1</a>
-      <a href="img/Kép2.jpg" alt="funWeboldal" target="_blank">
-        Kép2</a></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
-
-    <h3>12.01. 22:24 </h3>
-    <p> Kb 2 hét telt el az első post óta, ami lényegében az ötlet megszületésének az időpontját hivatott rögzíteni.
-      A továbbiakban megpróbálok nagyobb rendszerességgel postolni, addig is egy kis összefoglaló arról ami ebben a 2
-      hétben történt: <br>
-      <br>
-      - Elkezdtem tanulni a <a href="https://www.teamtreehouse.com" target="_blank">Treehouse</a>-nál. Egyelőre csak az
-      alapoknál tartok, de mindenképp hasznosnak tartom az eddig tanultakat. <br>
-      - Kezd kirajzolódni egy weboldal képe aminek egy része ez az egyelőre offline blog lesz, de kell egy kis idő mire
-      ez még kiforr. <br>
-      - Nem volt túl sok időm tanulgatni de volt egy kevés HTML, CSS és belenéztem a Javascript-be is.
-      <br> <br>
-      Erről jut eszembe... eddig bárkinek említettem a JavaScript-et mindenki rögtön Java-ra rövidítette,
-      pedig az egyik első dolog amit a <a href="https://teamtreehouse.com/" target="_blank">Treehouse</a>-nál
-      megtanultam a Javascript-tel kapcsolatban hogy nem azonos a Java-val.</p>
-
-    <a class="anchor" name="oldest"></a>
-
-    <h3>11.19. 00:25 </h3>
-    <p>A kezdet.</p>
-
-
-  </main>
-  <ul>
-    <li><a href="#Top">A lap tetejére</a></li>
-    <li><a href="index.html">Vissza a Nyitólapra</a></li>
-  </ul>
+    <script src="navbar_collapse.js"></script>
 
 </body>
 

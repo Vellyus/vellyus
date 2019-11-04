@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #222629;
+}
+
+.navbar {
+    background: #1b1e20 !important;
+    box-shadow: #1b1e20 0 4px 10px 10px;
+
+}
+
+.navbar-brand {
+    font-size: 2.8rem;
+    color: #84C708 !important;
+    opacity: 100% !important;
+}
+
+.navbar-nav a:hover {
+    color: #84C708 !important;
+}
+
+.navbar-nav a:active {
+    color: #84C708 !important;
+}
+
+.nav-item {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    text-shadow: black 4px 4px 5px;
+    line-height: 1.3;
+    color: #84C708;
+    margin-bottom: 5rem;
+}
+
+#about h2 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#about p {
+    font-size: 1.6rem;
+    text-shadow: black 4px 4px 5px;
+    line-height: 1.3;
+}
+
+#polygon {
+    width: 90px;
+}
+
+#polygon:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#blog a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: 3px solid #84C708;
+    border-radius: 130px;
+    font-size: 2rem;
+    font-weight: 510;
+    width: 12rem;
+}
+
+#blog a:hover {
+    background: #84C708;
+    color: #222629;
+    font-weight: 510;
+}
+
+#blog a:active {
+    background: #84C708;
+    color: #222629;
+    font-weight: 510;
+}
+
+#testLab a {
+    font-size: 1.5rem;
+    color: #DADBDC;
+    line-height: 1.6;
+}
+
+#testLab a:hover {
+    color: #84C708;
+}
+
+
+#testLab li {
+    margin-bottom: 1.5rem;
+}
+
+#testLab {
+    height: auto;
+}
+
+#testLabLink {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
+}
+
+#contact p {
+    font-size: 1.9rem;
+    text-shadow: black 4px 4px 5px;
+    line-height: 1.3;
+}
+
+
+#contact h2 {
+    margin-top: 5rem;
+}
+
+#contact img {
+    width: 6rem;
+}
+
+#contact img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
