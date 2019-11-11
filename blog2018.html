@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/combined_blog.css">
     <title>Vellyus / Blog 2018</title>
     <link rel="icon" href="img/logo2.png">
 
@@ -49,13 +47,13 @@
             jövőben és
             nem árt megörökíteni az oldal jelenlegi állapotát.<br>
             <br>
-            <a href="img/screenshot1.png" target="_blank"> <img src="img/screenshot1.png" alt="screenshot"
+            <a href="img/screenshot1.png" target="_blank"> <img src="assets/screenshot1_preview.png" alt="screenshot"
                     class="kisKépek" title="Screenshot1"> </a>
-            <a href="img/screenshot2.png" target="_blank"> <img src="img/screenshot2.png" alt="screenshot"
+            <a href="img/screenshot2.png" target="_blank"> <img src="assets/screenshot2_preview.png" alt="screenshot"
                     class="kisKépek" title="Screenshot2"> </a>
-            <a href="img/screenshot3.png" target="_blank"> <img src="img/screenshot3.png" alt="screenshot"
+            <a href="img/screenshot3.png" target="_blank"> <img src="assets/screenshot3_preview.png" alt="screenshot"
                     class="kisKépek" title="Screenshot3"> </a>
-            <a href="img/screenshot4.png" target="_blank"> <img src="img/screenshot4.png" alt="screenshot"
+            <a href="img/screenshot4.png" target="_blank"> <img src="assets/screenshot4_preview.png" alt="screenshot"
                     class="kisKépek" title="Screenshot4"> </a> <br>
             <br>
             Amiket a jövőben másképp szeretnék csinálni: <br>
@@ -362,18 +360,20 @@
     </div>
     <!-- /Nyitólap -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
-    <script src="navbar_collapse.js"></script>
+    <script>
+        $(".navbar-nav>a").on("click", function () {
+            $(".navbar-collapse").collapse("hide")
+        });
+    </script>
 
 </body>
 
