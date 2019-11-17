@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #B4773B;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    border: 3px solid black;
+    padding: 5px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+select {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+textarea {
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
