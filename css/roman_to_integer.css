@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  font-size: 4rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: 2px solid white;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (max-width: 706px) {
+  body {
+    font-size: 2rem;
+  }
+
+  hr {
+    width: 90%;
+  }
+}
