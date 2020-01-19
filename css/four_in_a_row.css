@@ -115,6 +115,10 @@ circle {
     cursor: pointer;
 }
 
+.arrow:focus {
+    outline: none;
+}
+
 #downArrow {
     display: block;
     margin: auto;
