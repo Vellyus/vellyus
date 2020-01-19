@@ -35,6 +35,7 @@ class Game {
   startGame() {
     this.board.drawHTMLBoard();
     this.activePlayer.activeToken.drawHTMLToken();
+    this.board.addArrows();
     this.ready = true;
   }
 
@@ -54,10 +55,9 @@ class Game {
       }
     }
   }
-
   /**
- * Finds Space object to drop Token into, drops Token
- */
+  * Finds Space object to drop Token into, drops Token
+  */
 
   playToken() {
     const _game = this;
