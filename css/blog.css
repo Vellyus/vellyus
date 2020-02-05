@@ -107,3 +107,7 @@ p a:hover {
 #logopic {
     border: solid 1px #99ff99;
 }
+
+.big {
+    font-size: 1.2em;
+}
