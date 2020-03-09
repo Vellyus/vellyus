@@ -92,7 +92,8 @@ p {
 }
 
 #testLab a {
-    font-size: 1.25em;
+    font-family: 'Spartan', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
     color: #DADBDC;
     line-height: 3;
 }
