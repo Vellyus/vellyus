@@ -78,12 +78,12 @@ p {
 #blog a {
     font-family: 'Spartan', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
     color: white;
     border: 3px solid #84C708;
     border-radius: 130px;
     font-size: 1em;
-    width: 6rem;
+    width: 5rem;
 }
 
 #blog a:hover {
@@ -149,9 +149,22 @@ p {
         font-size: 1em;
     }
 
+    .navbar-brand {
+        font-size: 2.52em;
+    }
+
     #about p {
         line-height: 2.3;
     }
+
+    #blog a {
+        padding: 8px;
+        color: white;
+        border: 3px solid #84C708;
+        border-radius: 130px;
+        font-size: 1em;
+        width: 6rem;
+    }   
 
 }
 
@@ -161,7 +174,7 @@ p {
     }
 
     .navbar-brand {
-        font-size: 2.8em;
+        font-size: 2.29em;
     }
 
     .nav-item {
@@ -171,6 +184,15 @@ p {
     #about p {
         line-height: 2.4;
     }
+
+    #blog a {
+        padding: 9px;
+        color: white;
+        border: 3px solid #84C708;
+        border-radius: 130px;
+        font-size: 1em;
+        width: 7rem;
+    }   
 }
 
 @media(min-width: 94rem) {
@@ -179,7 +201,7 @@ p {
     }
 
     .navbar-brand {
-        font-size: 2.8em;
+        font-size: 2.1em;
     }
 
     .nav-item {
@@ -189,4 +211,13 @@ p {
     #about p {
         line-height: 2.5;
     }
+
+    #blog a {
+        padding: 10px;
+        color: white;
+        border: 3px solid #84C708;
+        border-radius: 130px;
+        font-size: 1em;
+        width: 8rem;
+    }   
 }
