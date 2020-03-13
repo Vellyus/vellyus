@@ -152,7 +152,7 @@ p {
     transition: all 0.4s ease;
 }
 
-@media(min-width: 54em) {
+@media(min-width: 47em) {
     body {
         font-size: 1em;
     }
@@ -163,6 +163,8 @@ p {
 
     #about p {
         line-height: 2.3;
+        width: 40em;
+        margin: auto !important;
     }
 
     #blog a {
@@ -176,11 +178,16 @@ p {
 
     #aboutLink {
         top: -110px;
-    }    
+    }   
+    
+    #contact p {
+        width: 40em;
+        margin: auto !important;
+    }
 
 }
 
-@media(min-width: 64.125rem) {
+@media(min-width: 64.125em) {
     body {
         font-size: 1.1em;
     }
@@ -207,7 +214,7 @@ p {
     }   
 }
 
-@media(min-width: 94rem) {
+@media(min-width: 94em) {
     body {
         font-size: 1.2em;
     }
