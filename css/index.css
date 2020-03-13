@@ -164,7 +164,7 @@ p {
     #about p {
         line-height: 2.3;
         width: 40em;
-        margin: auto !important;
+        margin: auto;
     }
 
     #blog a {
@@ -182,7 +182,7 @@ p {
     
     #contact p {
         width: 40em;
-        margin: auto !important;
+        margin: auto;
     }
 
 }
