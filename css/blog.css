@@ -84,5 +84,29 @@ p a:hover {
 }
 
 .big {
-    font-size: 1.3em;
+    font-size: 1.1em;
+}
+
+@media(min-width: 47em) {
+    body {
+        font-size: 1em;
+    }
+
+    p {
+        width: 40em;
+        margin: auto;
+    }
+
+}
+
+@media(min-width: 64.125em) {
+    body {
+        font-size: 1.1em;
+    }
+}
+
+@media(min-width: 94em) {
+    body {
+        font-size: 1.2em;
+    }
 }
