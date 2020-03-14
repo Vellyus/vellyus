@@ -69,8 +69,8 @@ p a {
 }
 
 p a:hover {
-    color: white;
-    font-size: 1.4rem;
+    color: #84C708;
+    transition: all 0.4s ease;
     text-decoration: underline;
 }
 
