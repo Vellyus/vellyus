@@ -134,7 +134,7 @@ p {
 
 #contact p {
     font-size: 0.9em;
-    line-height: 1.8;
+    line-height: 1.6;
     color: #DADBDC;
 }
 
@@ -166,7 +166,6 @@ p {
     }
 
     #about p {
-        line-height: 2.3;
         width: 40em;
         margin: auto;
     }
@@ -188,7 +187,6 @@ p {
         width: 40em;
         margin: auto;
     }
-
 }
 
 @media(min-width: 64.125em) {
@@ -202,10 +200,6 @@ p {
 
     .nav-item {
         font-size: 1.318em;
-    }
-
-    #about p {
-        line-height: 2.4;
     }
 
     #blog a {
@@ -231,10 +225,6 @@ p {
         font-size: 1.318em;
     }   
     
-    #about p {
-        line-height: 2.5;
-    }
-
     #blog a {
         padding: 10px;
         color: white;
