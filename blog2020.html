@@ -40,6 +40,11 @@
 
     <h1>2020.</h1>
 
+    <h2>06.27. 17:21</h2>
+    <p>Már napok óta szenvedek a Music Player playlist részével. Említettem, hogy lesz lehetőség Youtube linkeket beilleszteni és szép sorban lejátszásra fognak kerülni. Nos, a listához a videó címét és hosszát a Youtube API-hoz intézett AJAX callokkal terveztem megoldani. Ez viszont néha tökéletesen működött néha meg öntudatra ébredt és úgy gondolta, hogy tart egy kis szünetet. Nem sikerült rájönni, hogy ez mitől van. Lényegében 403-mas error kódot dobál ami, elvileg azt jelentené, hogy nincs engedélyem kommunikálni a szerverrel, de mindent beállítottam amit csak lehetett az API konzolban szóval működnie kellene. Meg hát ugye elég furcsa, hogy csak időnként nem működik aztán megint jó... Tegnap sikerült megkerülnöm ezt a problémát: Ahhoz, hogy hozzáadjak egy videót a lejátszóhoz nem kell AJAX call. Észrevettem, hogy a playerből le is lehet kérni minden adatot a videóról ami nekem kell. Szóval azt csináltam, hogy beraktam egy második playert elrejtve és némítva. Először ehhez adom az új dalt, aztán kis késleltetés kell, hogy el is induljon (ide majd rakok valami loading animationt) és végül a rejtett playerből lekérem az infót és megjelenítem az új dalt a listában. Így egyetlen AJAX callra sincs szükségem. Igaz, hogy minden új dal hozzáadásánál várni kell 2 másodpercet, de legalább 100%-osan működik. <br>
+    <br>
+  A jelenlegi helyzet: A nap dala rész eddig is működött, ha beraksz Youtube linket akár listából akkor is csak az az egy dal kerül lejátszásra. Telefonon más formátuma van a linkeknek, ezt még nem tudja az app, de ma megcsinálom ezt is. Ha lejátszásra került egy dal a listából akkor eltűnik a hozzá tartozó elem. Gombok még nincsenek, hogy át tudd rendezni őket, de talán ma erre is sor kerül. A UI kicsinosítása csak később fog megtörténni. Ha a lejátszási lista végére érsz akkor megint a nap dala fog megjelenni. Úgy tervezem, hogy a Patreon link majd egy másik lejátszóhoz visz ahol a saját listám lesz egy keresővel és ugyanúgy lejátszhatod a dalokat, mint ezzel a playerrel.</p>
+
     <h2>06.16. 15:46</h2>
     <p>Nos... az elmúlt hónap eseményei meg ilyesmik: <br>
       <br>
