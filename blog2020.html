@@ -40,6 +40,9 @@
 
     <h1>2020.</h1>
 
+    <h2>06.29. 07:43</h2>
+    <p>Tegnap elfelejtettem leírni, hogy volt mégegy kis bökkenő. Új dal hozzáadásánál 2 másodperc várakozás volt, hogy betöltse a videót mielőtt lekérné az app az adatokat. Ez gépen működött, de a vacak telefonnak nem volt elég 2 másodperc. Viszont ha felraktam volna 5-re akkor gépen lett volna feleslegesen lassú. Végül sikerült megoldani, hogy akkor tegye be az új elemet a listába amikor végez a videó betöltésével és nincs gond az infó lekérésével.</p>
+
     <h2>06.28. 21:09</h2>
     <p>Tegnap említettem, hogy még aznap megcsinálok ezt-azt, de elég vacak kedvem volt és inkább egy új kártyatrükköt tanulgattam meg videókat bámultam. Ma viszont megint elég sokat szívtam a zenés appal. Megcsináltam, hogy a telefonos linkek is működjenek (ugyanis más a formátum, mint gépen), plusz előkerült pár bug amit orvolsoni kellett. Telefonon valamiért rögtön a kezdő dalra ugrott anélkül, hogy bármit is lejátszott volna a listából. Még nem sikerült rájönnöm, hogy miért csinálja ezt, gépen nincs ilyen baj. Egyelőre kivettem ezt a funkciót, elvégre annyira nem fontos, hogy a lista kiürülése után visszaálljon a nap dalára. Később talán még vesződök vele, de lehet, hogy így hagyom. Haladni kellene az appal és elég sok idő elment eddig a video player működtetésével. Egy másik bug amit sikerült orvosolni: Egy időzítő figyelte, hogy mikor van vége egy dalnak és elindította a functiont ami berakta az új dalt. Ha az időzítő épp akkor nézte, hogy hol tart a dal amikor egy új dal még töltött akkor egyszerűen átugrotta a dalt. És előfordult, hogy szép sorban több szám is kimaradt emiatt. Most kikapcsolom az időzítőt mielőtt berakok egy új dalt és utána kezdem el 10 másodperccel, így a nagyon lassú telefonomon se marad ki egy dal sem. Talán más hiba már nem kerül elő és legközelebb dolgozhatok a UI szépítésén.</p>
 
