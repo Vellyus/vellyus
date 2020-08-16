@@ -85,6 +85,11 @@ p a:hover {
     border: 2px solid black;
 }
 
+.kisKépek_borderless {
+    width: 100px;
+}
+
+
 #logopic {
     border: solid 1px #99ff99;
 }
