@@ -1,33 +1,45 @@
-function dieRoll() {
+function dieRoll()
+{
   return Math.floor(Math.random() * 6) + 1;
 }
 
-function print(message) {
+function print(message)
+{
   document.write(message);
 }
 
-function displayPicture(dieRollNr) {
-  if (dieRollNr === 1) {
-    print('<img src="../img/die1.jpg">')
-  } else if (dieRollNr === 2) {
-    print('<img src="../img/die2.jpg">')
-  } else if (dieRollNr === 3) {
-    print('<img src="../img/die3.jpg">')
-  } else if (dieRollNr === 4) {
-    print('<img src="../img/die4.jpg">')
-  } else if (dieRollNr === 5) {
-    print('<img src="../img/die5.jpg">')
-  } else {
-    print('<img src="../img/die6.jpg">')
+function displayPicture(dieRollNr)
+{
+  if (dieRollNr === 1)
+  {
+    print('<img src="img/die1.jpg">')
+  } else if (dieRollNr === 2)
+  {
+    print('<img src="img/die2.jpg">')
+  } else if (dieRollNr === 3)
+  {
+    print('<img src="img/die3.jpg">')
+  } else if (dieRollNr === 4)
+  {
+    print('<img src="img/die4.jpg">')
+  } else if (dieRollNr === 5)
+  {
+    print('<img src="img/die5.jpg">')
+  } else
+  {
+    print('<img src="img/die6.jpg">')
   }
 
 }
 
-function convertValue(dieRollNr) {
+function convertValue(dieRollNr)
+{
   var dieValue = 0;
-  if (dieRollNr === 3) {
+  if (dieRollNr === 3)
+  {
     dieValue += 2;
-  } else if (dieRollNr === 5) {
+  } else if (dieRollNr === 5)
+  {
     dieValue += 4;
   }
   return dieValue;

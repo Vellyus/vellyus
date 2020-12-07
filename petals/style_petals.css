@@ -14,10 +14,7 @@ img {
 
 .js {
   width: 100%;
-
-@@media () {
-
-}}
+}
 
 ol {
   /* width: 70%; */
