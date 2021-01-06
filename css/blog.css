@@ -106,6 +106,7 @@ p a:hover {
     p {
         width: 40em;
         margin: auto;
+        line-height: 1.9;
     }
 
 }
