@@ -123,13 +123,7 @@ p {
 
 #testLab {
     height: auto;
-}
-
-#testLabLink {
-    display: block;
-    position: relative;
-    top: -130px;
-    visibility: hidden;
+    padding-top: 110px;
 }
 
 #contact p {
@@ -177,10 +171,6 @@ p {
         border-radius: 130px;
         font-size: 1em;
         width: 6rem;
-    }   
-
-    #aboutLink {
-        top: -110px;
     }   
     
     #contact p {
