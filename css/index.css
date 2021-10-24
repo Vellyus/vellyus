@@ -27,7 +27,6 @@ body {
 
 .navbar-nav a:hover {
     color: #84C708 !important;
-    transition: all 0.4s ease;
 }
 
 .navbar-nav a:active {
@@ -36,6 +35,7 @@ body {
 
 .nav-item {
     font-size: 1.6em;
+    transition: all 0.4s ease;
 }
 
 h1 {
@@ -92,6 +92,7 @@ p {
     border-radius: 130px;
     font-size: 1em;
     width: 5rem;
+    transition: all 0.4s ease;
 }
 
 #blog a:hover {
@@ -99,7 +100,6 @@ p {
     color: #222629;
     font-weight: 510;
     transform: scale(1.15);
-    transition: all 0.4s ease;
 }
 
 #blog a:active {
@@ -118,7 +118,6 @@ p {
 
 #testLab a:hover {
     color: #84C708;
-    transition: all 0.4s ease;
 }
 
 #testLab {
@@ -138,12 +137,12 @@ p {
 
 #contact img {
     width: 4rem;
+    transition: all 0.4s ease;
 }
 
 #contact img:hover {
     transform: scale(1.15);
     cursor: pointer;
-    transition: all 0.4s ease;
 }
 
 @media(min-width: 47em) {
