@@ -89,6 +89,10 @@ p a:hover {
     width: 100px;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 #logopic {
     border: solid 1px #99ff99;
